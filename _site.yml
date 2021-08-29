@@ -2,7 +2,7 @@ name: "Stat 220"
 title: "Stat 220, Fall 2021"
 description: |
   Course website for Stat 220 at Carleton College, Fall 2021.
-output_dir: "_site"
+output_dir: "."
 navbar:
   left:
     - text: "Resources"
