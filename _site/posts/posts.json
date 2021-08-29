@@ -1,0 +1,14 @@
+[
+  {
+    "path": "posts/week01/",
+    "title": "Week 1: Welcome to Stat 220!",
+    "description": "This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.",
+    "author": [],
+    "date": "2021-08-29",
+    "categories": [],
+    "contents": "\n\nContents\nWednesday, 15 Sept\nFriday, 17 Sept\n\nWednesday, 15 Sept\nAnnouncements\nWelcome!\nTopics/activities\nSlides\nWhat is data science?\nWhat is this course about?\nGetting up and running\nBefore next time\nMake sure all software is installed and working\n\nFriday, 17 Sept\nAnnouncements\nWelcome!\nTopics/activities\n\n\n\n",
+    "preview": "posts/week01/week01.png",
+    "last_modified": "2021-08-29T13:25:51-05:00",
+    "input_file": "week01.knit.md"
+  }
+]

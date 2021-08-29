@@ -1,0 +1,8 @@
+---
+title: "Course materials and schedule"
+description: |
+  Announcements and upcoming deadlines
+site: distill::distill_website
+listing: posts
+---
+

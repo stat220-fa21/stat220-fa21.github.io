@@ -1,0 +1,187 @@
+---
+title: "Software in Stat 220"
+description: |
+  This guide describes the key software we will use this term
+  in Stat 220.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+
+## R/RStudio
+
+The use of the R programming language with the RStudio interface is an
+essential component of this course. You have two options for using
+RStudio:
+
+-   The **server version** of RStudio on the web at
+    (<https://maize.mathcs.carleton.edu>). The advantage of using the
+    server version is that all of your work will be stored in the cloud,
+    where it is automatically saved and backed up. This means that you
+    can access your work from any computer on campus using a web
+    browser. The downside is that you have to share limited
+    computational resources with each other! This limitation is
+    especially pronounced this term when classes are being taught
+    remotely. We are unsure what type of load will be placed on maize,
+    so if you can download a local version of R and RStudio, I recommend
+    you do so. Use your Carleton credentials to access your account and
+    you need to be running the Carleton VPN (below) to access this
+    server.
+
+-   A **local version** of RStudio installed on your machine. This
+    option is highly recommended due to the computational resources this
+    course demands. The downside to this approach is that your work is
+    only stored locally, but I get around this problem by keeping all of
+    my work on GitHub. You will learn how to use GitHub throughout the
+    course. Both R and RStudio are free and open-source.
+
+    **Installing R/RStudio (not needed if you are using the maize
+    server)**
+
+    -   Download the latest version of R: <https://cran.r-project.org/>
+
+    -   Download the free Rstudio desktop version:
+        <https://www.rstudio.com/products/rstudio/download/>
+
+    Use the default download and install options for each. For R,
+    download the "precompiled binary" distribution rather than the
+    source code
+
+    **Updating R/RStudio (not needed if you are using the maize
+    server)**
+
+    If you have used a local version of R/RStudio before and it is still
+    installed on your machine, then you should make sure that you have
+    the most recent versions of each program.
+
+    -   To check your version of R, run the command `getRversion()` and
+        compare your version to the newest version posted on
+        <https://cran.r-project.org/>. If you need an update, then
+        install the newer version using the installation directions
+        above.
+
+    -   In RStudio, check for updates with the menu option
+        `Help > Check for updates`. Follow directions if an update is
+        needed.
+
+    ### Did it work? (A sanity check after your install/update)
+
+    Do whatever is appropriate for your operating system to launch
+    RStudio. You should get a window similar to the screenshot you see
+    [here](https://www.rstudio.com/wp-content/uploads/2014/04/rstudio-workbench.png),
+    but yours will be more boring because you haven't written any code
+    or made any figures yet!
+
+    Put your cursor in the pane labeled Console, which is where you
+    interact with the live R process. Create a simple object with code
+    like `x <- 2 * 4` (followed by enter or return). Then inspect the
+    `x` object by typing `x` followed by enter or return. You should see
+    the value 8 printed. If this happened, you've succeeded in
+    installing R and RStudio!
+
+
+
+## Git and GitHub
+
+[Git](https://happygitwithr.com/big-picture.html#why-git) is version
+control software that you install locally on your computer. Git is
+already installed on the maize RStudio server.
+
+[Github](https://happygitwithr.com/big-picture.html#why-github) is a
+cloud-based service for hosting git projects. It allows multiple users
+to share and contribute to projects and it is how you will be submitting
+homework assignments and projects for this class. More information about
+Github for this class is found in [Getting setup with Git and
+GitHub](git_stat220.md).
+
+If you are using a local install of R/RStudio, then you will need to
+install Git.
+
+**Installing Git**
+
+Directions for both Windows & Mac here:
+<http://happygitwithr.com/install-git.html>.
+
+-   If you are using **maize**, then there is nothing you need to
+    install.
+
+-   Windows users should follow Option 1 in 6.2.
+
+-   Mac users can follow Option 1 in 6.3 if comfortable, otherwise
+    follow Option 2
+
+-   Linux users can follow 6.4.
+
+
+
+## Slack
+
+We will use Slack for all course communication. [Sign up for our course
+Slack team
+here](https://join.slack.com/t/stat220-fa21/shared_invite/zt-uvpbbjgj-cyr3olDzY~s7PkaY~Vu7Sg)!
+You will need to create an account with a username, and log in to read
+and post. You can use Slack right from a [web
+browser](https://stat220-fa21.slack.com), or you can download a
+standalone Slack application to your
+[Mac](https://slack.com/downloads/osx),
+[Windows](https://slack.com/downloads/windows),
+[Linux](https://slack.com/downloads/linux) and/or
+[Android](https://slack.com/downloads/android)/[iOS](https://slack.com/downloads/ios)
+device. You can control whether you receive notifications on new posts
+by going to Preferences, as well as decide which 'channels' to subscribe
+to. A 'channel' is a discussion thread, which is used to organize
+communications into topics. You can learn more about Slack features
+[here](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users).
+
+Several channels have been set up for specific parts of the course. Feel
+free to ask questions anytime. You can browse the available channels in
+our team by clicking on "Channels" on the left-hand panel.
+
+There is also an \#anonymous channel that you can use if you'd like to
+ask a question or provide a comment anonymously. To have a post appear
+anonymously in this channel, compose a direct message to yourself (by
+clicking on your username in the 'Direct Messages' menu on the left
+panel) that begins with /anon \#anonymous your question. Then the text
+your question will be sent to the \#anonymous channel by the anonymous
+bot. Zoom For synchronous class meeting and office hours we will use the
+Zoom video conferencing software. I recommend downloading the Zoom app
+for your operating system.
+
+
+
+## LaTeX
+
+If you want to render R Markdown documents to PDFs, then you need to
+install LaTeX. Below are the recommended installers for Windows and Mac:
+
+-   [MacTeX](https://www.tug.org/mactex/) for Mac (3.2GB)
+
+-   [MiKTeX](https://miktex.org/download) for Windows (190MB)
+
+-   Alternatively, you can install the `tinytex` R package by running
+    `install.packages("tinytex")` in the console.
+
+If you are using maize, then there is nothing you need to install.
+
+
+
+## Panopto
+
+At some point in the course, you will need to create a screencast
+presenting results or demonstrating your data product. Carleton supports
+the Panopto software for this purpose. For more information, including
+an installation guide, check out this [set of
+videos](https://apps.carleton.edu/campus/its/services/learning/lecture-capture/)
+on Panopto.
+
+
+
+## Acknowledgements {.appendix}
+
+This installation guide is based on the guide from stat545.com. 
+
+## Resuse {.appendix}
+
+This work is licensed under the CC BY-NC 3.0 Creative Commons License.

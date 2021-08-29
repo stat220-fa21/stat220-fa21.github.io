@@ -1,0 +1,16 @@
+name: "Stat 220"
+title: "Stat 220, Fall 2021"
+description: |
+  Course website for Stat 220 at Carleton College, Fall 2021.
+output_dir: "_site"
+navbar:
+  left:
+    - text: "Resources"
+      href: resources.html
+    - text: "GitHub"
+      href: https://github.com/stat220-fa21
+    - text: "Moodle"
+      href: https://moodle.carleton.edu/course/view.php?id=36986
+    - text: "Slack"
+      href: https://stat220-fa21.slack.com
+output: distill::distill_article

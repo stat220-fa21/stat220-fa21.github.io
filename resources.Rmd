@@ -1,0 +1,25 @@
+---
+title: "Resources"
+description: |
+  Here are some great resources to help answer your questions about
+  the course, Git, GitHub, and R.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+- Syllabus
+
+- [Software for Stat 220](software.html)
+
+- [Using Git and GitHub in Stat 220](github_stat220.html)
+
+- [Using Rstudio in Stat 220](rstudio_stat220.html)
+
+- GitHub reference
+
+- Supplemental reading: R for Data Science (R4DS)
+
+- Cheat sheets: data import; data wrangling; data visualization; R Markdown; string manipulation with stringr
+

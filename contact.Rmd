@@ -1,0 +1,16 @@
+---
+title: "Adam Loy"
+image: "img/adamloy.jpg"
+links:
+  - label: GitHub
+    url: "https://github.com/aloy"
+  - label: Email
+    url: "mailto:aloy@carleton.edu"
+output:
+  postcards::trestles
+---
+ 
+## Bio
+. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.

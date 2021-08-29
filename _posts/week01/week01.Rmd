@@ -1,0 +1,56 @@
+---
+title: "Week 1: Welcome to Stat 220!"
+description: |
+  This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.
+preview: week01.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+library(here)
+library(magick)
+library(magrittr)
+hex_paths <- here("img", c("rstudio.png", "github.png", "rmarkdown.png"))
+read_append <- hex_paths %>%
+  magick::image_read() %>%
+  magick::image_append()
+magick::image_write(read_append, "week01.png")
+```
+
+## Wednesday, 15 Sept
+
+### Announcements
+
+Welcome!
+
+### Topics/activities
+
+Slides
+
+- What is data science?
+- What is this course about?
+- Getting up and running
+
+### Before next time
+
+- Make sure all software is installed and working
+
+- 
+
+
+## Friday, 17 Sept
+
+### Announcements
+
+Welcome!
+
+### Topics/activities
