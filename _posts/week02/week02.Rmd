@@ -1,0 +1,51 @@
+---
+title: "Week 02"
+description: |
+  This week we'll learn (or review) how to use the ggplot2 library to 
+  create effective data-driven graphics.
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Monday, 20 Sept
+
+### Announcements
+
+### Topics/activities
+
+- Building blocks of graphics
+
+- Introduction to `{ggplot2}`
+
+
+### Before next time
+
+
+## Wednesday, 22 Sept
+
+### Announcements
+
+### Topics/activities
+
+- Scales, transformations, and themes
+
+
+### Before next time
+
+
+## Friday, 24 Sept
+
+### Announcements
+
+### Topics/activities
+
+- Creating effective graphics
+
+### Before next time
