@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -2106,7 +2107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>If you are <strong>not</strong> working on the maize RStudio server, then make sure that you have installed all of the software mentioned in <a href="software.md">Software in Stat 220</a>. In addition, you should install the <code>usethis</code> and <code>gitcreds</code> R packages.</p>
 <p>Everyone needs to connect Git and GitHub by doing the following:</p>
 <ol type="1">
-<li><p>Register for account on GitHub (<a href="https://github.com/" class="uri">https://github.com/</a>). I recommend using a username that incorporates your name (e.g. aloy). Please use your Carleton email with this account.</p></li>
+<li><p>Register for account on GitHub (<a href="https://github.com/" class="uri">https://github.com/</a>). I recommend using a username that incorporates your name (e.g., aloy). Please use your Carleton email with this account.</p></li>
 <li><p>Setup options in Git by running the following code chunk in your console:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(usethis)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">&quot;Jane Doe&quot;</span>, <span class="at">user.email =</span> <span class="st">&quot;jane@example.org&quot;</span>)</span></code></pre></div>
@@ -2117,7 +2118,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>Complete the steps in <a href="http://happygitwithr.com/credential-caching.html">Section 10.1 of Happy Git with R</a> to get a personal access token (you will need to install the <code>usethis</code> package first). Then, follow the directions in <a href="https://happygitwithr.com/credential-caching.html#call-an-r-function-to-store-your-credentials">Section 10.2.1 of Happy Git with R</a> (I’ve had good luck with the <code>gitcreds</code> package, and it is installed on maize.)</p></li>
 <li><p>A second method is to generate a SSH key. First check to see if you have a SSH key. Go into the shell (again, through RStudio <code>Tools -&gt; Shell</code>) and complete on this page <a href="http://happygitwithr.com/ssh-keys.html" class="uri">http://happygitwithr.com/ssh-keys.html</a>, which is Chapter 11 in Happy Git with R.</p></li>
 </ul></li>
-<li><p><strong>(optional)</strong> Follow the instructions here (<a href="http://happygitwithr.com/push-pull-github.html" class="uri">http://happygitwithr.com/push-pull-github.html</a>) to ensure you can connect to GitHub from your computer. If you can’t get this command line push/pull to work that is fine. Try connecting to GitHub via RStudio, as detailed next. If you can’t connect via RStudio then contact me on <a href="https://moodle.carleton.edu/mod/url/view.php?id=527391" title="Slack">Slack</a> or talk to me in student hours.</p></li>
+<li><p>(optional) Follow the instructions here (<a href="http://happygitwithr.com/push-pull-github.html" class="uri">http://happygitwithr.com/push-pull-github.html</a>) to ensure you can connect to GitHub from your computer. If you can’t get this command line push/pull to work that is fine. Try connecting to GitHub via RStudio, as detailed next. If you can’t connect via RStudio then talk to me in student hours.</p></li>
 </ol>
 <h2 id="individual-assignments">Individual assignments</h2>
 <p>If you followed the suggestions in the <a href="rstudio_stat220.md">Using Rstudio in Stat 220</a> page, then you should already have an assignments folder on your computer or maize account.</p>

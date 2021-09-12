@@ -31,7 +31,7 @@ and `gitcreds` R packages.
 Everyone needs to connect Git and GitHub by doing the following:
 
 1.  Register for account on GitHub (<https://github.com/>). I recommend
-    using a username that incorporates your name (e.g. aloy). Please use
+    using a username that incorporates your name (e.g., aloy). Please use
     your Carleton email with this account.
 
 2.  Setup options in Git by running the following code chunk in your
@@ -71,14 +71,12 @@ Everyone needs to connect Git and GitHub by doing the following:
         <http://happygitwithr.com/ssh-keys.html>, which is Chapter 11 in
         Happy Git with R.
 
-4.  **(optional)** Follow the instructions here
+4.  (optional) Follow the instructions here
     (<http://happygitwithr.com/push-pull-github.html>) to ensure you can
     connect to GitHub from your computer. If you can't get this command
     line push/pull to work that is fine. Try connecting to GitHub via
     RStudio, as detailed next. If you can't connect via RStudio then
-    contact me on
-    [Slack](https://moodle.carleton.edu/mod/url/view.php?id=527391 "Slack")
-    or talk to me in student hours.
+    talk to me in student hours.
 
 
 

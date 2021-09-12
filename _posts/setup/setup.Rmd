@@ -1,0 +1,31 @@
+---
+title: "Getting setup for Stat 220"
+description: |
+  Please work through this guide and install/update the necessary
+  software **before** the first day of class.
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+To get the class up an running quickly at the beginning of the term, **please do the following *before* the first day of class:**
+
+1. Read through [this software overview and installation guide](software.html). If you will be working on your own computer, then please try to have R, RStudio, Git, and LaTeX installed. I'm happy to help with troubleshooting during student hours.
+
+2. Sign up for a GitHub account using your Carleton email: https://github.com/. I recommend choosing a username that incorporates your name (e.g. aloy or AdamLoy).
+
+<!-- 3. Apply for an education discount to get free private GitHub repositories: https://education.github.com/discount_requests/new -->
+<!--     - Request an "Individual Account" discount -->
+<!--     - For "How do you plan to use GitHub?" type in: For my Carleton College Intro to Data Science course https://classroom.github.com/classrooms/62115390-math285-spring-2020 -->
+
+3. Edit your GitHub profile. Please add your name and a cropped picture of you (to help me learn names faster).
+
+4. Sign up for [Slack](https://join.slack.com/t/stat220-fa21/shared_invite/zt-uvpbbjgj-cyr3olDzY~s7PkaY~Vu7Sg) following the directions on the guide. Once you have joined the class workspace, go to the “discussion” channel and introduce yourself.
+
+5. Fill out [this pre-class survey](https://forms.gle/Wzsy9LduVYi3Mo2m7). You'll submit your GitHub username here, so be sure to complete the other steps first!
