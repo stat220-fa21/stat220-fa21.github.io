@@ -9,7 +9,9 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-- Syllabus
+## Essential course information
+
+- [Syllabus](stat220-21-fall.pdf)
 
 - [Software for Stat 220](software.html)
 
@@ -17,9 +19,36 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Using Rstudio in Stat 220](rstudio_stat220.html)
 
-- GitHub reference
 
-- Supplemental reading: R for Data Science (R4DS)
+## Readings
 
-- Cheat sheets: data import; data wrangling; data visualization; R Markdown; string manipulation with stringr
+There's no perfect textbook for data science, so readings will come from a variety of sources including:
+
+-   [R for Data Science](https://r4ds.had.co.nz/)
+-   [Introduction to Data Science (Timbers, Campbell, Lee)](https://ubc-dsci.github.io/introduction-to-datascience/)
+-   [Introduction to Data Science (Irizarry)](https://rafalab.github.io/dsbook/)
+-   [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
+-   [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+## R guides
+
+RStudio has created some excellent cheat sheets that I often have on my desk
+
+- [RStudio IDE](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
+- [dynamic documents with rmarkdown](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown.pdf)
+- [data visualization with ggplot2](https://github.com/rstudio/cheatsheets/raw/master/data-visualization.pdf)
+- [data transformations with dplyr](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
+- [data tidying with tidyr](https://github.com/rstudio/cheatsheets/raw/master/tidyr.pdf)
+- [data import with readr, readxl, and googlesheets4](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf)
+- [apply functions with purrr](https://github.com/rstudio/cheatsheets/raw/master/purrr.pdf)
+- [stringr manipulation with stringr](https://github.com/rstudio/cheatsheets/raw/master/strings.pdf)
+- [factors with forcats](https://github.com/rstudio/cheatsheets/raw/master/factors.pdf)
+- [dates and time with lubridate](https://github.com/rstudio/cheatsheets/raw/master/lubridate.pdf)
+- [interactive web apps with shiny](https://github.com/rstudio/cheatsheets/raw/master/shiny.pdf)
+
+
+
+## Git/GitHub guides
+
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/) - the essential guide for using Git/GitHub with R/RStudio
 

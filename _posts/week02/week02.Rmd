@@ -27,8 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Before next time
 
-- Read 
-
+- Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss
 
 ## Wednesday, 22 Sept
 
@@ -36,12 +35,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics/activities
 
+
 - Polishing plots (i.e., scales, transformations, and themes)
 
 
 ### Before next time
 
-- Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html)
+- Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss
 
 
 ## Friday, 24 Sept
@@ -50,6 +50,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics/activities
 
-- Creating effective graphics
+- Case studies??? (Maps, ___?, ___?)
 
 ### Before next time
