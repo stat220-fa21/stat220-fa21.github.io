@@ -3,10 +3,11 @@ title: "Getting setup for Stat 220"
 description: |
   Please work through this guide and install/update the necessary
   software **before** the first day of class.
+date: September 13, 2021
 output:
   distill::distill_article:
     self_contained: false
-draft: true
+draft: false
 ---
 
 
@@ -28,4 +29,4 @@ To get the class up an running quickly at the beginning of the term, **please do
 
 4. Sign up for [Slack](https://join.slack.com/t/stat220-fa21/shared_invite/zt-uvpbbjgj-cyr3olDzY~s7PkaY~Vu7Sg) following the directions on the guide. Once you have joined the class workspace, go to the “discussion” channel and introduce yourself.
 
-5. Fill out [this pre-class survey](https://forms.gle/Wzsy9LduVYi3Mo2m7). You'll submit your GitHub username here, so be sure to complete the other steps first!
+5. Fill out [this pre-class survey](https://forms.gle/Tbc5TTv6erE7MbP59). You'll submit your GitHub username here, so be sure to complete the other steps first!

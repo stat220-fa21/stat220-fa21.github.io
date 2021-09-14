@@ -8,7 +8,7 @@ output:
     self_contained: false
     toc: true
     toc_depth: 2
-draft: true
+draft: false
 ---
 
 ```{r setup, include=FALSE}
@@ -35,11 +35,11 @@ Welcome!
 
 ### Topics/activities
 
-Slides
+Intro + R Markdown slides [html](https://stat220-fa21.github.io/class_materials/slides/01-intro) | [pdf](https://stat220-fa21.github.io/class_materials/slides/01-intro.pdf)
 
 - What is data science?
 - What is this course about?
-- Getting up and running
+- Getting up and running with R Markdown
 
 ### Before next time
 

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "path": "posts/week01/",
+    "title": "Week 1: Welcome to Stat 220!",
+    "description": "This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.",
+    "author": [],
+    "date": "2021-09-14",
+    "categories": [],
+    "contents": "\n\nContents\nWednesday, 15 Sept\nFriday, 17 Sept\n\nWednesday, 15 Sept\nAnnouncements\nWelcome!\nTopics/activities\nIntro + R Markdown slides html | pdf\nWhat is data science?\nWhat is this course about?\nGetting up and running with R Markdown\nBefore next time\nMake sure all software is installed and working\nConnect Git and GitHub following the directions in the GitHub Classroom Guide for Stat 220(you only need to worry about the “Getting setup with Git and GitHub” for now.)\nRead Sections 2.2-2.13 in Irizazary. This reviews the basics of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.\nRead Sections 27.1-27.5 in R4DS. This reviews and expands on using R Markdown for literate programming.\nWatch “Git and GitHub for Poets (part 1)”. This introduces basic ideas, but we’ll use RStudio to interface with Git and GitHub.\n\nOptional (if you need more review):\nIf you don’t remember how to use R Markdown from your last statistics class, read R and RStudio Basics and R Markdown from Getting Used to R, RStudio, and R Markdown\nIf it’s been a LONG time since you used R and need a crash course on the very basics, watch this programming basics primer from RStudio.\nFriday, 17 Sept\nAnnouncements\nHomework 1 is due by 8:30 a.m. on Monday, September 20.\nTopics/activities\nWorking with vectors and lists\nConnecting to GitHub\nBefore next time\nComplete homework 1 and submit it on GitHub.\nWatch this brief overview of the layered grammar of graphics.\nRead Sections 3.1-3.6 in R4DS. This will introduce key {ggplot2} ideas.\n\n\n\n",
+    "preview": "posts/week01/week01.png",
+    "last_modified": "2021-09-14T15:15:12-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/setup/",
+    "title": "Getting setup for Stat 220",
+    "description": "Please work through this guide and install/update the necessary\nsoftware **before** the first day of class.",
+    "author": [],
+    "date": "2021-09-13",
+    "categories": [],
+    "contents": "\nTo get the class up an running quickly at the beginning of the term, please do the following before the first day of class:\nRead through this software overview and installation guide. If you will be working on your own computer, then please try to have R, RStudio, Git, and LaTeX installed. I’m happy to help with troubleshooting during student hours.\nSign up for a GitHub account using your Carleton email: https://github.com/. I recommend choosing a username that incorporates your name (e.g. aloy or AdamLoy).\nEdit your GitHub profile. Please add your name and a cropped picture of you (to help me learn names faster).\nSign up for Slack following the directions on the guide. Once you have joined the class workspace, go to the “discussion” channel and introduce yourself.\nFill out this pre-class survey. You’ll submit your GitHub username here, so be sure to complete the other steps first!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-09-14T15:14:33-05:00",
+    "input_file": {}
+  }
+]
