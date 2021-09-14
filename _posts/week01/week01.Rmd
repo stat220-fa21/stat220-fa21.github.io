@@ -43,6 +43,8 @@ Intro + R Markdown slides [html](https://stat220-fa21.github.io/class_materials/
 
 ### Before next time
 
+- Please [sign up for two collaborative note slots](https://docs.google.com/document/d/1xjLpsYCh0u9n-Hm7T_z2F3Kb_qo7MgnGtSB8HaFaamk/edit?usp=sharing)
+
 - Make sure all software is installed and working
 
 - Connect Git and GitHub following the directions in the [GitHub Classroom Guide for Stat 220](github_stat220.html)(you only need to worry about the "Getting setup with Git and GitHub" for now.)
