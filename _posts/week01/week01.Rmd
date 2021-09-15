@@ -35,20 +35,11 @@ Welcome!
 
 ### Topics/activities
 
-Intro + R Markdown slides [html](https://stat220-fa21.github.io/class_materials/slides/01-intro) | [pdf](https://stat220-fa21.github.io/class_materials/slides/01-intro.pdf)
+Intro slides [html](https://stat220-fa21.github.io/class_materials/slides/01-intro) | [pdf](https://stat220-fa21.github.io/class_materials/slides/01-intro.pdf)
 
 
 - What is data science?
 - What is this course about?
-- Getting up and running with R Markdown
-
-[Example .Rmd report](https://github.com/stat220-fa21/01-rmarkdown-example)
-
-To download this .Rmd, click on the green "Code" button and then "Download ZIP".
-
-```{r echo=FALSE}
-knitr::include_graphics("download-zip.png")
-```
 
 
 ### Before next time
@@ -57,7 +48,7 @@ knitr::include_graphics("download-zip.png")
 
 - Make sure all software is installed and working
 
-- Connect Git and GitHub following the directions in the [GitHub Classroom Guide for Stat 220](github_stat220.html)(you only need to worry about the "Getting setup with Git and GitHub" for now.)
+- Connect Git and GitHub following the directions in the [GitHub Classroom Guide for Stat 220](https://stat220-fa21.github.io/github_stat220.html)(you only need to worry about the "Getting setup with Git and GitHub" for now.)
 
 - Read [Sections 2.2-2.13 in Irizazary](https://rafalab.github.io/dsbook/r-basics.html#the-very-basics). This reviews the basics of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.
 
@@ -83,9 +74,21 @@ Homework 1 is due by 8:30 a.m. on Monday, September 20.
 
 ### Topics/activities
 
+Slides: html | pdf
+
+- Getting up and running with R Markdown
+
 - Working with vectors and lists
 
 - Connecting to GitHub
+
+[Example .Rmd report](https://github.com/stat220-fa21/01-rmarkdown-example)
+
+To download this .Rmd, click on the green "Code" button and then "Download ZIP".
+
+```{r echo=FALSE}
+knitr::include_graphics("download-zip.png")
+```
 
 ### Before next time
 
