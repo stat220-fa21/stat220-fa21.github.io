@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 To get the class up an running quickly at the beginning of the term, **please do the following *before* the first day of class:**
 
-1. Read through [this software overview and installation guide](software.html). If you will be working on your own computer, then please try to have R, RStudio, Git, and LaTeX installed. I'm happy to help with troubleshooting during student hours.
+1. Read through [this software overview and installation guide](https://stat220-fa21.github.io/software.html). If you will be working on your own computer, then please try to have R, RStudio, Git, and LaTeX installed. I'm happy to help with troubleshooting during student hours.
 
 2. Sign up for a GitHub account using your Carleton email: https://github.com/. I recommend choosing a username that incorporates your name (e.g. aloy or AdamLoy).
 
