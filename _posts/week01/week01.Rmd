@@ -50,8 +50,6 @@ Intro slides [html](https://stat220-fa21.github.io/class_materials/slides/01-int
 
 - Connect Git and GitHub following the directions in the [GitHub Classroom Guide for Stat 220](https://stat220-fa21.github.io/github_stat220.html)(you only need to worry about the "Getting setup with Git and GitHub" for now.)
 
-- Read [Sections 2.2-2.13 in Irizazary](https://rafalab.github.io/dsbook/r-basics.html#the-very-basics). This reviews the basics of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.
-
 - Read [Sections 27.1-27.5 in R4DS](https://r4ds.had.co.nz/r-markdown.html#r-markdown). This reviews and expands on using R Markdown for literate programming. 
 
 - Watch "Git and GitHub for Poets (part 1)". This introduces 
@@ -93,6 +91,8 @@ knitr::include_graphics("download-zip.png")
 ### Before next time
 
 - Complete homework 1 and submit it on GitHub.
+
+- Watch this video on the R fundamentals **or** read [Sections 2.2-2.13 in Irizazary](https://rafalab.github.io/dsbook/r-basics.html#the-very-basics), whichever works best for your learning style. These materials review the fundamentals of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.
 
 - Watch this brief overview of the layered grammar of graphics.
 
