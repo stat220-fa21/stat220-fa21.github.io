@@ -16,7 +16,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Monday, 20 Sept
 
+
+
 ### Announcements
+
+Homework 1 is due at the beginning of class on GitHub
 
 ### Topics/activities
 
@@ -27,11 +31,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Before next time
 
-- Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss
+1. Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss the ideas, I won't lecture on everything
+
+
 
 ## Wednesday, 22 Sept
 
-### Announcements
 
 ### Topics/activities
 
@@ -41,12 +46,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Before next time
 
-- Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss
+1. Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss, I won't lecture on everything
 
 
 ## Friday, 24 Sept
 
 ### Announcements
+
+Homework 2 is due by 8:30 am on GitHub
 
 ### Topics/activities
 

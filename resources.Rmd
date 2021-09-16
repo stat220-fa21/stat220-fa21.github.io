@@ -13,6 +13,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Syllabus](stat220-21-fall.pdf)
 
+- [Homework guidelines](homework.html)
+
 - [Schedule an appointment](https://calendly.com/aloy-meetings/15min)
 
 - [Software for Stat 220](software.html)
