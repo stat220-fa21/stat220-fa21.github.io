@@ -68,13 +68,15 @@ Optional (if you need more review):
 
 ### Announcements
 
-Homework 1 is due by 8:30 a.m. on Monday, September 20.
+Homework 1 is due by 8:30 a.m. on Wednesday, September 22.
 
 ### Topics/activities
 
 Slides: [html](https://stat220-fa21.github.io/class_materials/slides/02-rmarkdown-github) | [pdf](https://stat220-fa21.github.io/class_materials/slides/02-rmarkdown-github.pdf)
 
 [Example .Rmd report](https://github.com/stat220-fa21/01-rmarkdown-example) (for your turns)
+
+[Collaborative notes](https://docs.google.com/document/d/1JrWib_6Tkrct4BB2FESZ0mNvLrXydcnSXv7Pug1Nqjw/edit?usp=sharing)
 
 - Reproducible workflows
 
@@ -86,7 +88,7 @@ Slides: [html](https://stat220-fa21.github.io/class_materials/slides/02-rmarkdow
 
 ### Before next time
 
-1. Complete homework 1 and submit it on GitHub.
+1. Make sure that you have access to  homework 1 on GitHub. You can start working on it now, but it won't be due until Wednesday (notice that change in due date.)
 
 1. Watch this video on the R fundamentals (here are the [slides](https://stat220-fa21.github.io/class_materials/slides/03-basics.pdf)) **or** read [Sections 2.2-2.13 in Irizazary](https://rafalab.github.io/dsbook/r-basics.html#the-very-basics), whichever works best for your learning style. These materials review the fundamentals of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.
 

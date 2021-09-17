@@ -20,9 +20,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Announcements
 
-Homework 1 is due at the beginning of class on GitHub
+
 
 ### Topics/activities
+
+- Version control
 
 - Building blocks of graphics
 
@@ -37,6 +39,9 @@ Homework 1 is due at the beginning of class on GitHub
 
 ## Wednesday, 22 Sept
 
+### Announcements
+
+Homework 1 is due at the beginning of class on GitHub
 
 ### Topics/activities
 
