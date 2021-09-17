@@ -24,16 +24,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics/activities
 
+- Reviewing R basics (vectors and lists)
+
 - Version control
-
-- Building blocks of graphics
-
-- Introduction to `{ggplot2}`
 
 
 ### Before next time
 
-1. Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss the ideas, I won't lecture on everything
+1. Watch this brief overview of the layered grammar of graphics (here are the [slides](https://stat220-fa21.github.io/class_materials/slides/03-grammar-of-graphics.pdf)).
+
+    <iframe src="https://carleton.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6f63d31a-4fa0-4f93-8f74-ada500fde064&autoplay=false&offerviewer=true&showtitle=false&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+1. Skim [Sections 3.1-3.6 in R4DS](https://r4ds.had.co.nz/data-visualisation.html#introduction-1). This will introduce key `{ggplot2}` ideas.
+
 
 
 
@@ -45,13 +48,17 @@ Homework 1 is due at the beginning of class on GitHub
 
 ### Topics/activities
 
+- Building blocks of graphics
 
-- Polishing plots (i.e., scales, transformations, and themes)
+- Introduction to `{ggplot2}`
 
 
 ### Before next time
 
-1. Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss, I won't lecture on everything
+
+1. Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss the ideas, I won't lecture on everything
+
+
 
 
 ## Friday, 24 Sept
@@ -62,6 +69,10 @@ Homework 2 is due by 8:30 am on GitHub
 
 ### Topics/activities
 
-- Case studies??? (Maps, ___?, ___?)
+- Polishing plots (i.e., scales, transformations, and themes)
+
 
 ### Before next time
+
+1. Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss, I won't lecture on everything
+
