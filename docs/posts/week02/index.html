@@ -86,9 +86,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Stat 220, Fall 2021: Week 1: Welcome to Stat 220!</title>
+<title>Stat 220, Fall 2021: Week 2: Version control and data viz</title>
 
-<meta property="description" itemprop="description" content="This week we&#39;ll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools."/>
+<meta property="description" itemprop="description" content="This week we&#39;ll discuss version control and learn (or review) how to use the ggplot2 library to &#10;create effective data-driven graphics."/>
 
 
 <!--  https://schema.org/Article -->
@@ -96,27 +96,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="article:created" itemprop="dateCreated" content="2021-09-17"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Stat 220, Fall 2021: Week 1: Welcome to Stat 220!"/>
+<meta property="og:title" content="Stat 220, Fall 2021: Week 2: Version control and data viz"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="This week we&#39;ll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools."/>
+<meta property="og:description" content="This week we&#39;ll discuss version control and learn (or review) how to use the ggplot2 library to &#10;create effective data-driven graphics."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Stat 220, Fall 2021"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Stat 220, Fall 2021: Week 1: Welcome to Stat 220!"/>
-<meta property="twitter:description" content="This week we&#39;ll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools."/>
+<meta property="twitter:title" content="Stat 220, Fall 2021: Week 2: Version control and data viz"/>
+<meta property="twitter:description" content="This week we&#39;ll discuss version control and learn (or review) how to use the ggplot2 library to &#10;create effective data-driven graphics."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","output","draft","date"]}},"value":[{"type":"character","attributes":{},"value":["Week 1: Welcome to Stat 220!"]},{"type":"character","attributes":{},"value":["This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools."]},{"type":"character","attributes":{},"value":["week01.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["09-17-2021"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output","draft","date"]}},"value":[{"type":"character","attributes":{},"value":["Week 2: Version control and data viz"]},{"type":"character","attributes":{},"value":["This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics."]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["09-17-2021"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["download-zip.png","week01_files/anchor-4.2.2/anchor.min.js","week01_files/bowser-1.9.3/bowser.min.js","week01_files/distill-2.2.21/template.v2.js","week01_files/header-attrs-2.10/header-attrs.js","week01_files/header-attrs-2.11/header-attrs.js","week01_files/jquery-1.11.3/jquery.min.js","week01_files/jquery-3.6.0/jquery-3.6.0.js","week01_files/jquery-3.6.0/jquery-3.6.0.min.js","week01_files/jquery-3.6.0/jquery-3.6.0.min.map","week01_files/popper-2.6.0/popper.min.js","week01_files/tippy-6.2.7/tippy-bundle.umd.min.js","week01_files/tippy-6.2.7/tippy-light-border.css","week01_files/tippy-6.2.7/tippy.css","week01_files/tippy-6.2.7/tippy.umd.min.js","week01_files/webcomponents-2.0.0/webcomponents.js","week01.png"]}
+  {"type":"character","attributes":{},"value":["week02_files/anchor-4.2.2/anchor.min.js","week02_files/bowser-1.9.3/bowser.min.js","week02_files/distill-2.2.21/template.v2.js","week02_files/header-attrs-2.10/header-attrs.js","week02_files/header-attrs-2.11/header-attrs.js","week02_files/jquery-1.11.3/jquery.min.js","week02_files/jquery-3.6.0/jquery-3.6.0.js","week02_files/jquery-3.6.0/jquery-3.6.0.min.js","week02_files/jquery-3.6.0/jquery-3.6.0.min.map","week02_files/popper-2.6.0/popper.min.js","week02_files/tippy-6.2.7/tippy-bundle.umd.min.js","week02_files/tippy-6.2.7/tippy-light-border.css","week02_files/tippy-6.2.7/tippy.css","week02_files/tippy-6.2.7/tippy.umd.min.js","week02_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2061,7 +2061,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 1: Welcome to Stat 220!","description":"This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.","authors":[],"publishedDate":"2021-09-17T00:00:00.000+00:00"}
+{"title":"Week 2: Version control and data viz","description":"This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics.","authors":[],"publishedDate":"2021-09-17T00:00:00.000+00:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2086,10 +2086,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Week 1: Welcome to Stat 220!</h1>
+<h1>Week 2: Version control and data viz</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This week we’ll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.</p></p>
+<p><p>This week we’ll discuss version control and learn (or review) how to use the ggplot2 library to create effective data-driven graphics.</p></p>
 </div>
 
 
@@ -2098,51 +2098,51 @@ document.addEventListener('DOMContentLoaded', function() {
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#wednesday-15-sept">Wednesday, 15 Sept</a></li>
-<li><a href="#friday-17-sept">Friday, 17 Sept</a></li>
+<li><a href="#monday-20-sept">Monday, 20 Sept</a></li>
+<li><a href="#wednesday-22-sept">Wednesday, 22 Sept</a></li>
+<li><a href="#friday-24-sept">Friday, 24 Sept</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="wednesday-15-sept">Wednesday, 15 Sept</h2>
+<h2 id="monday-20-sept">Monday, 20 Sept</h2>
 <h3 id="announcements">Announcements</h3>
-<p>Welcome!</p>
+<p>Homework 1 is due on Wednesday at 8:30 am on GitHub.</p>
+<p>Homework 2 is due on Friday at 8:30 am on GitHub.</p>
 <h3 id="topicsactivities">Topics/activities</h3>
-<p>Intro slides <a href="https://stat220-fa21.github.io/class_materials/slides/01-intro">html</a> | <a href="https://stat220-fa21.github.io/class_materials/slides/01-intro.pdf">pdf</a></p>
 <ul>
-<li>What is data science?</li>
-<li>What is this course about?</li>
+<li><p>Reviewing R basics (vectors and lists)</p></li>
+<li><p>Version control</p></li>
 </ul>
 <h3 id="before-next-time">Before next time</h3>
-<ul>
-<li><p>Please <a href="https://docs.google.com/document/d/1xjLpsYCh0u9n-Hm7T_z2F3Kb_qo7MgnGtSB8HaFaamk/edit?usp=sharing">sign up for two collaborative note slots</a></p></li>
-<li><p>Make sure all software is installed and working</p></li>
-<li><p>Connect Git and GitHub following the directions in the <a href="https://stat220-fa21.github.io/github_stat220.html">GitHub Classroom Guide for Stat 220</a>(you only need to worry about the “Getting setup with Git and GitHub” for now.)</p></li>
-<li><p>Read <a href="https://r4ds.had.co.nz/r-markdown.html#r-markdown">Sections 27.1-27.5 in R4DS</a>. This reviews and expands on using R Markdown for literate programming.</p></li>
-<li><p>Watch “Git and GitHub for Poets (part 1)”. This introduces basic ideas, but we’ll use RStudio to interface with Git and GitHub.</p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BCQHnlnPusY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></li>
-</ul>
-<p>Optional (if you need more review):</p>
-<ul>
-<li><p>If you don’t remember how to use R Markdown from your last statistics class, read <a href="https://ismayc.github.io/rbasics-book/3-rstudiobasics.html">R and RStudio Basics</a> and <a href="https://ismayc.github.io/rbasics-book/4-rmarkdown.html">R Markdown</a> from <em>Getting Used to R, RStudio, and R Markdown</em></p></li>
-<li><p>If it’s been a LONG time since you used R and need a crash course on the very basics, watch this <a href="https://rstudio.cloud/learn/primers/1.2">programming basics primer from RStudio</a>.</p></li>
-</ul>
-<h2 id="friday-17-sept">Friday, 17 Sept</h2>
+<ol type="1">
+<li><p>Watch this brief overview of the layered grammar of graphics (here are the <a href="https://stat220-fa21.github.io/class_materials/slides/03-grammar-of-graphics.pdf">slides</a>).</p>
+<p><iframe src="https://carleton.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6f63d31a-4fa0-4f93-8f74-ada500fde064&autoplay=false&offerviewer=true&showtitle=false&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe></p></li>
+<li><p>Skim <a href="https://r4ds.had.co.nz/data-visualisation.html#introduction-1">Sections 3.1-3.6 in R4DS</a>. This will introduce key <code>{ggplot2}</code> ideas.</p></li>
+</ol>
+<h2 id="wednesday-22-sept">Wednesday, 22 Sept</h2>
 <h3 id="announcements-1">Announcements</h3>
-<p>Homework 1 is due by 8:30 a.m. on Wednesday, September 22.</p>
+<p>Homework 1 is due at the beginning of class on GitHub</p>
 <h3 id="topicsactivities-1">Topics/activities</h3>
-<p>Slides: <a href="https://stat220-fa21.github.io/class_materials/slides/02-rmarkdown-github">html</a> | <a href="https://stat220-fa21.github.io/class_materials/slides/02-rmarkdown-github.pdf">pdf</a></p>
-<p><a href="https://github.com/stat220-fa21/01-rmarkdown-example">Example .Rmd report</a> (for your turns)</p>
-<p><a href="https://docs.google.com/document/d/1ocCxcEFMnzOPG9eP2jRhYWknkU-qF3ZPi9ui3Pebz5E/edit?usp=sharing">Collaborative notes</a></p>
 <ul>
-<li><p>Reproducible workflows</p></li>
-<li><p>Getting up and running with R Markdown</p></li>
-<li><p>Connecting to GitHub</p></li>
+<li><p>Building blocks of graphics</p></li>
+<li><p>Introduction to <code>{ggplot2}</code></p></li>
 </ul>
 <h3 id="before-next-time-1">Before next time</h3>
 <ol type="1">
-<li><p>Make sure that you have access to homework 1 on GitHub. You can start working on it now, but it won’t be due until Wednesday (notice that change in due date). I’ll also review how to clone the project and use GitHub on Monday.</p></li>
-<li><p>Watch this video on the R fundamentals (here are the <a href="https://stat220-fa21.github.io/class_materials/slides/03-basics.pdf">slides</a>) <strong>or</strong> read <a href="https://rafalab.github.io/dsbook/r-basics.html#the-very-basics">Sections 2.2-2.13 in Irizazary</a>, whichever works best for your learning style. These materials review the fundamentals of working with vectors in R. Feel free to skip the exercises for now, focus on reviewing the basics.</p>
-<p><iframe src="https://carleton.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=b9c7fff0-7c5e-4a6b-abb9-ada500fde02e&autoplay=false&offerviewer=true&showtitle=false&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe></p></li>
+<li><p>Read sections <a href="https://r4ds.had.co.nz/data-visualisation.html#introduction-1">Sections 3.7-3.10 in R4DS</a> in R4DS</p></li>
+<li><p>Read <a href="https://rafalab.github.io/dsbook/data-visualization-principles.html">Irizarry Chapter 10</a> - be prepared to discuss the ideas, I won’t lecture on everything. Focus more on the principles and less on the code in this reading.</p></li>
+</ol>
+<h2 id="friday-24-sept">Friday, 24 Sept</h2>
+<h3 id="announcements-2">Announcements</h3>
+<p>Homework 2 is due by 8:30 am on GitHub</p>
+<h3 id="topicsactivities-2">Topics/activities</h3>
+<ul>
+<li>Polishing plots (i.e., scales, transformations, and themes)</li>
+</ul>
+<h3 id="before-next-time-2">Before next time</h3>
+<ol type="1">
+<li><p>Review <a href="https://r4ds.had.co.nz/graphics-for-communication.html">Chapter 28 in R4DS</a> to reinforce code for polishing graphics. You don’t need to read every word, use this to clarify ideas that were unclear.</p></li>
+<li><p>Read <a href="https://clauswilke.com/dataviz/telling-a-story.html">Chapter 29 in <em>Data Visualization</em></a> - be prepared to discuss, I won’t lecture on everything, but be prepared to discuss.</p></li>
 </ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

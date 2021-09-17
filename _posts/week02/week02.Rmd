@@ -1,12 +1,14 @@
 ---
-title: "Week 02"
+title: "Week 2: Version control and data viz"
 description: |
-  This week we'll learn (or review) how to use the ggplot2 library to 
+  This week we'll discuss version control and learn (or review) how to use the ggplot2 library to 
   create effective data-driven graphics.
 output:
   distill::distill_article:
     self_contained: false
-draft: true
+    toc: true
+    toc_depth: 2
+draft: false
 ---
 
 
@@ -17,10 +19,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Monday, 20 Sept
 
 
-
 ### Announcements
 
+Homework 1 is due on Wednesday at 8:30 am on GitHub.
 
+Homework 2 is due on Friday at 8:30 am on GitHub.
 
 ### Topics/activities
 
@@ -55,8 +58,9 @@ Homework 1 is due at the beginning of class on GitHub
 
 ### Before next time
 
+1. Read sections  [Sections 3.7-3.10 in R4DS](https://r4ds.had.co.nz/data-visualisation.html#introduction-1) in R4DS
 
-1. Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss the ideas, I won't lecture on everything
+1. Read [Irizarry Chapter 10](https://rafalab.github.io/dsbook/data-visualization-principles.html) - be prepared to discuss the ideas, I won't lecture on everything. Focus more on the principles and less on the code in this reading.
 
 
 
@@ -74,5 +78,8 @@ Homework 2 is due by 8:30 am on GitHub
 
 ### Before next time
 
-1. Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss, I won't lecture on everything
+
+1. Review [Chapter 28 in R4DS](https://r4ds.had.co.nz/graphics-for-communication.html) to reinforce code for polishing graphics. You don't need to read every word, use this to clarify ideas that were unclear.
+
+1. Read [Chapter 29 in *Data Visualization*](https://clauswilke.com/dataviz/telling-a-story.html) - be prepared to discuss, I won't lecture on everything, but be prepared to discuss.
 

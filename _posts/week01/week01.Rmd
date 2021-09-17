@@ -76,7 +76,7 @@ Slides: [html](https://stat220-fa21.github.io/class_materials/slides/02-rmarkdow
 
 [Example .Rmd report](https://github.com/stat220-fa21/01-rmarkdown-example) (for your turns)
 
-[Collaborative notes](https://docs.google.com/document/d/1JrWib_6Tkrct4BB2FESZ0mNvLrXydcnSXv7Pug1Nqjw/edit?usp=sharing)
+[Collaborative notes](https://docs.google.com/document/d/1ocCxcEFMnzOPG9eP2jRhYWknkU-qF3ZPi9ui3Pebz5E/edit?usp=sharing)
 
 - Reproducible workflows
 
