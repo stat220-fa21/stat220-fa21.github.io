@@ -27,9 +27,13 @@ Homework 2 is due on Friday at 8:30 am on GitHub.
 
 ### Topics/activities
 
+Slides [html](https://stat220-fa21.github.io/class_materials/slides/04-version-control) | [pdf](https://stat220-fa21.github.io/class_materials/slides/04-version-control.pdf)
+
 - Reviewing R basics (vectors and lists)
 
 - Version control
+
+[.Rmd for your turn examples](https://stat220-fa21.github.io/class_materials/activities/02-r-basics.Rmd)
 
 
 ### Before next time
