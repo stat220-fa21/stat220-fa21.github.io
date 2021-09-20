@@ -3,6 +3,7 @@ title: "Week 1: Welcome to Stat 220!"
 description: |
   This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.
 preview: week01.png
+date: 9/15/2021
 output:
   distill::distill_article:
     self_contained: false
@@ -76,7 +77,7 @@ Slides: [html](https://stat220-fa21.github.io/class_materials/slides/02-rmarkdow
 
 [Example .Rmd report](https://github.com/stat220-fa21/01-rmarkdown-example) (for your turns)
 
-[Collaborative notes](https://docs.google.com/document/d/1ocCxcEFMnzOPG9eP2jRhYWknkU-qF3ZPi9ui3Pebz5E/edit?usp=sharing)
+[Collaborative notes](https://docs.google.com/document/d/1ocCxcEFMnzOPG9eP2jRhYWknkU-qF3ZPi9ui3Pebz5E/edit?usp=sharing )
 
 - Reproducible workflows
 
