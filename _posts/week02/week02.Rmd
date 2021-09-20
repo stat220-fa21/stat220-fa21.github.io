@@ -3,6 +3,7 @@ title: "Week 2: Version control and data viz"
 description: |
   This week we'll discuss version control and learn (or review) how to use the ggplot2 library to 
   create effective data-driven graphics.
+preview: week02.png
 output:
   distill::distill_article:
     self_contained: false
@@ -14,6 +15,17 @@ draft: false
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+library(here)
+library(magick)
+library(magrittr)
+hex_paths <- here("img", c("github.png", "ggplot2.png"))
+read_append <- hex_paths %>%
+  magick::image_read() %>%
+  magick::image_append()
+magick::image_write(read_append, "week02.png")
 ```
 
 ## Monday, 20 Sept
@@ -38,7 +50,7 @@ Slides [html](https://stat220-fa21.github.io/class_materials/slides/04-version-c
 
 ### Before next time
 
-1. Watch this brief overview of the layered grammar of graphics (here are the [slides](https://stat220-fa21.github.io/class_materials/slides/03-grammar-of-graphics.pdf)).
+1. [Watch this](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6f63d31a-4fa0-4f93-8f74-ada500fde064) brief overview of the layered grammar of graphics (here are the [slides](https://stat220-fa21.github.io/class_materials/slides/03-grammar-of-graphics.pdf)).
 
     <iframe src="https://carleton.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6f63d31a-4fa0-4f93-8f74-ada500fde064&autoplay=false&offerviewer=true&showtitle=false&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
