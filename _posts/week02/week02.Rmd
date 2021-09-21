@@ -69,9 +69,13 @@ Homework 1 is due at the beginning of class on GitHub
 
 ### Topics/activities
 
+Slides [html](https://stat220-fa21.github.io/class_materials/slides/05-ggplot2-essentials) | [pdf](https://stat220-fa21.github.io/class_materials/slides/05-ggplot2-essentials.pdf)
+
 - Building blocks of graphics
 
 - Introduction to `{ggplot2}`
+
+[.Rmd for ggplot2 activity](https://stat220-fa21.github.io/class_materials/activities/04_ggplot2_basics.Rmd)
 
 
 ### Before next time
