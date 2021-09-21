@@ -1,0 +1,45 @@
+---
+title: "Cache credentials for RStudio and GitHub"
+description: |
+  This is a brief overview of how to store your GitHub PAT so that
+  you can more easily work with GitHub via RStudio. 
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval=FALSE)
+```
+
+After you have signed up for a GitHub account and gone through all of the account verification steps, you will need to generate a personal access token (PAT) and let R know what that is. To do this, I suggest following these steps:
+
+1. Setup options in Git by running the following code chunk in your console:
+
+    ```{r}
+library(usethis)
+use_git_config(user.name = "Jane Doe", user.email = "jane@example.org")
+```
+    changing the first two lines to your own name and email (this should be the email associated with your GitHub account).
+
+2. Next, you should generate a PAT:
+
+    ```{r}
+create_github_token()
+```
+
+    This function will preselect the recommended scopes. I recommend just clicking "Generate token" unless you know of a reason to tweak the scopes. Store this token somewhere, because you’ll never be able to see it again once you leave that page or close the window. Treat this PAT like a password.
+
+3. Now that you have credentials, you need to store them. I recommend using the `{gitcreds}` package. Run the below chunk (after installing the package if you're using your own laptop):
+
+    ```{r}
+library(gitcreds)
+gitcreds_set()
+```
+
+    Respond to the prompt with your personal access token (PAT).
+
+4. You should be setup! Try to clone a GitHub project and talk to me if you still hit issues.
+
+
+## Acknowledgments {.appendix}
+
+These are adapted from Jenny Bryan's recommendations in [chapter 10 of Happy Git and GitHub for the useR](https://happygitwithr.com/credential-caching.html#credential-caching). As such, this work is is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).

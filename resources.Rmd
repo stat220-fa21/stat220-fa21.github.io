@@ -21,6 +21,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Software for Stat 220](software.html)
 
+- [Caching your PAT for GitHub](setup_github.Rmd)
+
 - [Using Git and GitHub in Stat 220](github_stat220.html)
 
 - [Using Rstudio in Stat 220](rstudio_stat220.html)
