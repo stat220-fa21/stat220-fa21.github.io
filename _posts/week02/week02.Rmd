@@ -77,6 +77,8 @@ Slides [html](https://stat220-fa21.github.io/class_materials/slides/05-ggplot2-e
 
 [.Rmd for ggplot2 activity](https://stat220-fa21.github.io/class_materials/activities/04_ggplot2_basics.Rmd)
 
+[Solution to activity](https://stat220-fa21.github.io/class_materials/activities/04_soln_ggplot2_basics.html)
+
 
 ### Before next time
 
