@@ -1,0 +1,97 @@
+---
+title: "Week 3: Data viz and data wrangling"
+description: |
+  This week we'll conclude our initial discussion of static data visualization by
+  working through a few special plot types (e.g., maps). We'll also start wrangling
+  data sets.
+preview: week03.png
+date: 09-27-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+library(magick)
+library(magrittr)
+hex_paths <- here("img", c("github.png", "dplyr.png"))
+read_append <- hex_paths %>%
+  magick::image_read() %>%
+  magick::image_append()
+magick::image_write(read_append, "week03.png")
+```
+
+## Monday, 27 Sept
+
+
+### Topics
+
+Wrapping up data viz
+
+- Chloropleth maps
+
+- ggplot2 extensions
+
+GitHub collaboration
+
+
+### Materials
+
+Coming soon...
+
+
+### Before next time
+
+1. Read [sections 5.1-5.5 of R4DS](https://r4ds.had.co.nz/transform.html#transform). 
+
+1. Work on homework 3
+
+
+
+
+## Wednesday, 29 Sept
+
+
+### Topics
+
+- Introduction to data wrangling via dplyr
+
+- Single table verbs
+
+### Materials
+
+Coming soon...
+
+### Before next time
+
+1. Finish homework 3
+
+1. Read [Irizzary chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) for an overview of joining data sets and basic set operations in R.
+
+1. Watch brief overview of piping
+
+
+
+## Friday, 1 Oct
+
+
+### Announcements
+
+Homework 3 is due today. Push to Github by the start of class.
+
+### Topics
+
+- Joining multiple data sets
+
+### Materials
+
+Coming soon...
+
+### Before next time
+
+1. Start homework 4
