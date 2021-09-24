@@ -92,8 +92,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-09-23"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-09-23"/>
+<meta property="article:published" itemprop="datePublished" content="2021-09-24"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-09-24"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Stat 220, Fall 2021: Week 2: Version control and data viz"/>
@@ -111,7 +111,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","output","draft","date"]}},"value":[{"type":"character","attributes":{},"value":["Week 2: Version control and data viz"]},{"type":"character","attributes":{},"value":["This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics."]},{"type":"character","attributes":{},"value":["week02.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["09-23-2021"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","output","draft","date"]}},"value":[{"type":"character","attributes":{},"value":["Week 2: Version control and data viz"]},{"type":"character","attributes":{},"value":["This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics."]},{"type":"character","attributes":{},"value":["week02.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["09-24-2021"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2061,7 +2061,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 2: Version control and data viz","description":"This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics.","authors":[],"publishedDate":"2021-09-23T00:00:00.000+00:00"}
+{"title":"Week 2: Version control and data viz","description":"This week we'll discuss version control and learn (or review) how to use the ggplot2 library to \ncreate effective data-driven graphics.","authors":[],"publishedDate":"2021-09-24T00:00:00.000+00:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2148,7 +2148,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Polishing plots (i.e., scales, transformations, and themes)</li>
 </ul>
 <div class="layout-chunk" data-layout="l-body">
-
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># Load the data for today </span>
+<span class='va'>island</span> <span class='op'>&lt;-</span> <span class='fu'>readr</span><span class='fu'>::</span><span class='fu'><a href='https://readr.tidyverse.org/reference/read_delim.html'>read_csv</a></span><span class='op'>(</span><span class='st'>"https://stat220-fa21.github.io/class_materials/data/island_species.csv"</span><span class='op'>)</span>
+</code></pre>
+</div>
 </div>
 <h3 id="before-next-time-2">Before next time</h3>
 <ol type="1">

@@ -103,7 +103,7 @@ Slides [html](https://stat220-fa21.github.io/class_materials/slides/05-polishing
 
 - Polishing plots (i.e., scales, transformations, and themes)
 
-```{r message=FALSE}
+```{r message=FALSE, echo=TRUE}
 # Load the data for today 
 island <- readr::read_csv("https://stat220-fa21.github.io/class_materials/data/island_species.csv")
 ```
