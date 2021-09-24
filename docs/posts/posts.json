@@ -8,8 +8,8 @@
     "categories": [],
     "contents": "\n\nContents\nMonday, 20 Sept\nWednesday, 22 Sept\nFriday, 24 Sept\n\nMonday, 20 Sept\nAnnouncements\nHomework 1 is due on Wednesday at 8:30 am on GitHub.\nHomework 2 is due on Friday at 8:30 am on GitHub.\nTopics/activities\nSlides html | pdf\nCollaborative notes\nReviewing R basics (vectors and lists)\nVersion control\n.Rmd for your turn examples\nBefore next time\nWatch this brief overview of the layered grammar of graphics (here are the slides).\n\nSkim Sections 3.1-3.6 in R4DS. This will introduce key {ggplot2} ideas.\nWednesday, 22 Sept\nAnnouncements\nHomework 1 is due at the beginning of class on GitHub\nTopics/activities\nSlides html | pdf\nCollaborative notes\nBuilding blocks of graphics\nIntroduction to {ggplot2}\n.Rmd for ggplot2 activity\nSolution to activity\nBefore next time\nRead sections Sections 3.7-3.10 in R4DS in R4DS\nRead Irizarry Chapter 10 - be prepared to discuss the ideas, I won’t lecture on everything. Focus more on the principles and less on the code in this reading.\nFriday, 24 Sept\nAnnouncements\nHomework 2 is due by 8:30 am on GitHub\nTopics/activities\nSlides html | pdf\nPolishing plots (i.e., scales, transformations, and themes)\n\n\n\nBefore next time\nReview Chapter 28 in R4DS to reinforce code for polishing graphics. You don’t need to read every word, use this to clarify ideas that were unclear.\nRead Chapter 29 in Data Visualization - be prepared to discuss, I won’t lecture on everything, but be prepared to discuss.\n\n\n\n",
     "preview": "posts/week02/week02.png",
-    "last_modified": "2021-09-23T22:17:04-05:00",
-    "input_file": {}
+    "last_modified": "2021-09-23T22:21:24-05:00",
+    "input_file": "week02.knit.md"
   },
   {
     "path": "posts/week01/",
