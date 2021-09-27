@@ -28,7 +28,6 @@ magick::image_write(read_append, "week03.png")
 
 ## Monday, 27 Sept
 
-
 ### Topics
 
 Wrapping up data viz
@@ -42,7 +41,16 @@ GitHub collaboration
 
 ### Materials
 
-Coming soon...
+[Mapping slides](https://stat220-fa21.github.io/class_materials/slides/06-maps.pdf)
+
+[Github collaboartion slides](https://stat220-fa21.github.io/class_materials/slides/07-git-collaboration.pdf)
+
+Code to load the `animal.csv` file:
+
+```{r echo=TRUE}
+animal <- readr::read_csv("https://stat220-fa21.github.io/class_materials/data/animal.csv")
+```
+
 
 
 ### Before next time
