@@ -45,6 +45,8 @@ GitHub collaboration
 
 [Github collaboartion slides](https://stat220-fa21.github.io/class_materials/slides/07-git-collaboration.pdf)
 
+[Collaborative notes](https://docs.google.com/document/d/1vIJT1l9ydQww84ieW_ukXm7EAPKVQoN85VB6Pu5m0ug/edit?usp=sharing)
+
 Code to load the `animal.csv` file:
 
 ```{r echo=TRUE}
