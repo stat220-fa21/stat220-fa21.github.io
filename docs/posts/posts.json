@@ -6,9 +6,9 @@
     "author": [],
     "date": "2021-09-27",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 27 Sept\nWednesday, 29 Sept\nFriday, 1 Oct\n\nMonday, 27 Sept\nTopics\nWrapping up data viz\nChloropleth maps\nggplot2 extensions\nGitHub collaboration\nMaterials\nMapping slides\nGithub collabortion slides\nCollaborative notes\nCode to load the animal.csv file:\n\n\nanimal <- readr::read_csv(\"https://stat220-fa21.github.io/class_materials/data/animal.csv\")\n\n\n\nBefore next time\nRead sections 5.1-5.5 of R4DS.\nWork on homework 3\nWednesday, 29 Sept\nTopics\nIntroduction to data wrangling via dplyr\nSingle table verbs\nMaterials\nSlides\nBefore next time\nFinish homework 3\nRead Irizzary chapter 22 for an overview of joining data sets and basic set operations in R.\nWatch brief overview of piping\nFriday, 1 Oct\nAnnouncements\nHomework 3 is due today. Push to Github by the start of class.\nTopics\nJoining multiple data sets\nMaterials\nComing soon…\nBefore next time\nStart homework 4\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 27 Sept\nWednesday, 29 Sept\nFriday, 1 Oct\n\nMonday, 27 Sept\nTopics\nWrapping up data viz\nChloropleth maps\nggplot2 extensions\nGitHub collaboration\nMaterials\nMapping slides\nGithub collabortion slides\nCollaborative notes\nCode to load the animal.csv file:\n\n\nanimal <- readr::read_csv(\"https://stat220-fa21.github.io/class_materials/data/animal.csv\")\n\n\n\nBefore next time\nRead sections 5.1-5.5 of R4DS.\nWork on homework 3\nWednesday, 29 Sept\nTopics\nIntroduction to data wrangling via dplyr\nSingle table verbs\nMaterials\nSlides\nRmd for your turns\nBefore next time\nFinish homework 3\nRead Irizzary chapter 22 for an overview of joining data sets and basic set operations in R.\nWatch brief overview of piping\nFriday, 1 Oct\nAnnouncements\nHomework 3 is due today. Push to Github by the start of class.\nTopics\nJoining multiple data sets\nMaterials\nComing soon…\nBefore next time\nStart homework 4\n\n\n\n",
     "preview": "posts/week03/week03.png",
-    "last_modified": "2021-09-28T22:59:02-05:00",
+    "last_modified": "2021-09-28T23:58:55-05:00",
     "input_file": "week03.knit.md"
   },
   {
