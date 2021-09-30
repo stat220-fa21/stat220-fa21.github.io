@@ -3,6 +3,11 @@ title: "Resources"
 description: |
   Here are some great resources to help answer your questions about
   the course, Git, GitHub, and R.
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -27,6 +32,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Using Rstudio in Stat 220](rstudio_stat220.html)
 
+## Homework solutions
+
+- [Homework 2 solution](https://www.dropbox.com/s/0uiz92a31xume8p/hw2-soln-stat220-fa21.pdf?dl=0)
 
 ## Readings
 
