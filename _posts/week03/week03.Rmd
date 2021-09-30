@@ -109,5 +109,7 @@ Homework 3 is due today. Push to Github by the start of class.
 
 1. Start homework 4
 
+1. Work on mini project 1
+
 1. Read [Irizzary chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) for an overview of joining data sets and basic set operations in R.
 
