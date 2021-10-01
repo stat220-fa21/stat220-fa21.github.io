@@ -101,9 +101,15 @@ Homework 3 is due today. Push to Github by the start of class.
 
 - The pipe operator
 
+- Data import (if time permits)
+
 ### Materials
 
 [Slides](https://stat220-fa21.github.io/class_materials/slides/08-wrangle-single-table.pdf) - We will continue from where we left off
+
+[Data import slides](https://stat220-fa21.github.io/class_materials/slides/09-import.pdf)
+
+[Data import your turn](https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd)
 
 ### Before next time
 
@@ -111,5 +117,6 @@ Homework 3 is due today. Push to Github by the start of class.
 
 1. Work on mini project 1
 
-1. Read [Irizzary chapter 22](https://rafalab.github.io/dsbook/joining-tables.html) for an overview of joining data sets and basic set operations in R.
+1. Watch the below videos on joining data (here are the slides) or read [Irizzary chapter 22](https://rafalab.github.io/dsbook/joining-tables.html), whichever works best for your learning style.
 
+<iframe src="https://carleton.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6ce5348e-71c0-4126-a7e4-ab9c013d71f7&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=false&interactivity=none" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
