@@ -29,15 +29,15 @@
       "description": "Announcements and upcoming deadlines\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-09-30T22:09:46-05:00"
+      "last_modified": "2021-09-30T22:16:44-05:00"
     },
     {
       "path": "resources.html",
       "title": "Resources",
       "description": "Here are some great resources to help answer your questions about\nthe course, Git, GitHub, and R.\n",
       "author": [],
-      "contents": "\n\nContents\nEssential course information\nHomework solutions\nReadings\nR guides\nGit/GitHub guides\n\nEssential course information\nSyllabus\nHomework guidelines\nToken spending form\nSchedule an appointment\nSoftware for Stat 220\nCaching your PAT for GitHub\nUsing Git and GitHub in Stat 220\nUsing Rstudio in Stat 220\nHomework solutions\nHomework 2 solution\nReadings\nThere’s no perfect textbook for data science, so readings will come from a variety of sources including:\nR for Data Science\nIntroduction to Data Science (Timbers, Campbell, Lee)\nIntroduction to Data Science (Irizarry)\nFundamentals of Data Visualization\nAn Introduction to Statistical Learning\nR guides\nRStudio has created some excellent cheat sheets that I often have on my desk\nRStudio IDE\ndynamic documents with rmarkdown\ndata visualization with ggplot2\ndata transformations with dplyr\ndata tidying with tidyr\ndata import with readr, readxl, and googlesheets4\napply functions with purrr\nstringr manipulation with stringr\nfactors with forcats\ndates and time with lubridate\ninteractive web apps with shiny\nGit/GitHub guides\nHappy Git and GitHub for the useR - the essential guide for using Git/GitHub with R/RStudio\n\n\n\n",
-      "last_modified": "2021-09-30T22:09:47-05:00"
+      "contents": "\n\nContents\nEssential course information\nHomework solutions\nQuiz materials\nReadings\nR guides\nGit/GitHub guides\n\nEssential course information\nSyllabus\nHomework guidelines\nToken spending form\nSchedule an appointment\nSoftware for Stat 220\nCaching your PAT for GitHub\nUsing Git and GitHub in Stat 220\nUsing Rstudio in Stat 220\nHomework solutions\nHomework 2 solution\nQuiz materials\nOld ggplot2 questions\nReadings\nThere’s no perfect textbook for data science, so readings will come from a variety of sources including:\nR for Data Science\nIntroduction to Data Science (Timbers, Campbell, Lee)\nIntroduction to Data Science (Irizarry)\nFundamentals of Data Visualization\nAn Introduction to Statistical Learning\nR guides\nRStudio has created some excellent cheat sheets that I often have on my desk\nRStudio IDE\ndynamic documents with rmarkdown\ndata visualization with ggplot2\ndata transformations with dplyr\ndata tidying with tidyr\ndata import with readr, readxl, and googlesheets4\napply functions with purrr\nstringr manipulation with stringr\nfactors with forcats\ndates and time with lubridate\ninteractive web apps with shiny\nGit/GitHub guides\nHappy Git and GitHub for the useR - the essential guide for using Git/GitHub with R/RStudio\n\n\n\n",
+      "last_modified": "2021-09-30T23:23:08-05:00"
     },
     {
       "path": "rstudio_stat220.html",

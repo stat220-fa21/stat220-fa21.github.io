@@ -36,6 +36,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Homework 2 solution](https://www.dropbox.com/s/0uiz92a31xume8p/hw2-soln-stat220-fa21.pdf?dl=0)
 
+## Quiz materials
+
+- [Old ggplot2 questions](https://www.dropbox.com/s/3rrog8omtjijsp2/quiz_examples_ggplot2.pdf?dl=0)
+
 ## Readings
 
 There's no perfect textbook for data science, so readings will come from a variety of sources including:
