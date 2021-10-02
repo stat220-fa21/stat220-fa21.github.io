@@ -1,0 +1,82 @@
+---
+title: "Week 4: Tidy data"
+description: |
+ This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.
+date: 10-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Monday, 4 Oct
+
+### Topics
+
+- 
+
+### Materials
+
+Check back soon...
+
+### Before next time
+
+1. Reading....
+
+1. Work on homework 4
+
+1. Study for quiz 1
+
+
+
+## Wednesday, 6 Oct
+
+### Topics
+
+- Tidy data
+
+### Materials
+
+Check back soon...
+
+
+
+### Before next time
+
+1. Finish homework 4
+
+1. Finish mini project 1
+
+1. Study for quiz 1
+
+
+
+## Friday, 8 Oct
+
+### Announcements
+
+- Homework 4 is due today by 8:30 am
+
+- Mini project 1 is due today by 8:30 am
+
+- I will post Homework 5 today
+
+### Topics
+
+- TOPIC
+
+- Quiz 1 (last 30 minuts)
+
+
+### Before next time
+
+1. Start homework 5
+
+

@@ -101,15 +101,12 @@ Homework 3 is due today. Push to Github by the start of class.
 
 - The pipe operator
 
-- Data import (if time permits)
 
 ### Materials
 
 [Slides](https://stat220-fa21.github.io/class_materials/slides/08-wrangle-single-table.pdf) - We will continue from where we left off
 
-[Data import slides](https://stat220-fa21.github.io/class_materials/slides/09-import.pdf)
-
-[Data import your turn](https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd)
+[Collaborative notes](https://docs.google.com/document/d/1STb_mP4W185-nVhG0jD9UsE54bqUxgrocTLzGr3OW5M/edit?usp=sharing)
 
 ### Before next time
 
