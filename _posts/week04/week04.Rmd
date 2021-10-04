@@ -20,15 +20,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics
 
-- 
+- Joining data sets
+
+- Importing data via `readr`
 
 ### Materials
 
-Check back soon...
+[Joining example .Rmd file](https://stat220-fa21.github.io/class_materials/activities/08-joins.Rmd)
+
+[Data import slides](https://stat220-fa21.github.io/class_materials/slides/09-import.pdf)
+
+[Rmd for data import your turns](https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd)
 
 ### Before next time
 
-1. Reading....
+1. Read [R4DS Chapter 12](https://r4ds.had.co.nz/tidy-data.html)
 
 1. Work on homework 4
 
@@ -70,9 +76,9 @@ Check back soon...
 
 ### Topics
 
-- TOPIC
+- Working with dates and times
 
-- Quiz 1 (last 30 minuts)
+- Quiz 1 (last 30 minutes)
 
 
 ### Before next time
