@@ -6,10 +6,10 @@
     "author": [],
     "date": "2021-10-04",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 4 Oct\nWednesday, 6 Oct\nFriday, 8 Oct\n\nMonday, 4 Oct\nTopics\nJoining data sets\nImporting data via readr\nMaterials\nJoining example .Rmd file\nData import slides\nRmd for data import your turns\nBefore next time\nRead R4DS Chapter 12\nWork on homework 4\nStudy for quiz 1\nWednesday, 6 Oct\nTopics\nTidy data\nReshaping data (pivoting, separating)\nMaterials\nTidy data slides\nRmd for your turns\nBefore next time\nFinish homework 4\nFinish mini project 1\nStudy for quiz 1\nFriday, 8 Oct\nAnnouncements\nHomework 4 is due today by 8:30 am\nMini project 1 is due today by 8:30 am\nI will post Homework 5 today\nTopics\nWorking with dates and times\nQuiz 1 (last 30 minutes)\nBefore next time\nStart homework 5\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 4 Oct\nWednesday, 6 Oct\nFriday, 8 Oct\n\nMonday, 4 Oct\nTopics\nJoining data sets\nImporting data via readr\nMaterials\nJoining example .Rmd file\nData import slides\nRmd for data import your turns\nCollaborative notes\nBefore next time\nRead R4DS Chapter 12\nWork on homework 4\nStudy for quiz 1\nWednesday, 6 Oct\nTopics\nTidy data\nReshaping data (pivoting, separating)\nMaterials\nTidy data slides\nRmd for your turns\nBefore next time\nFinish homework 4\nFinish mini project 1\nStudy for quiz 1\nFriday, 8 Oct\nAnnouncements\nHomework 4 is due today by 8:30 am\nMini project 1 is due today by 8:30 am\nI will post Homework 5 today\nTopics\nWorking with dates and times\nQuiz 1 (last 30 minutes)\nBefore next time\nStart homework 5\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-05T14:21:08-05:00",
-    "input_file": {}
+    "last_modified": "2021-10-05T22:14:43-05:00",
+    "input_file": "week04.knit.md"
   },
   {
     "path": "posts/week03/",

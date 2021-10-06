@@ -32,6 +32,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Rmd for data import your turns](https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/1ceP_yo2qLkB80qzOvUuUrfRv4WEZRkv_kMQyOb-BRQI/edit?usp=sharing)
+
 ### Before next time
 
 1. Read [R4DS Chapter 12](https://r4ds.had.co.nz/tidy-data.html)
