@@ -56,6 +56,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Tidy data slides](https://stat220-fa21.github.io/class_materials/slides/10-tidy-data.pdf)
 
+[Collaborative notes](https://docs.google.com/document/d/1E2odZeAigFSozdUbmyC_EoLkquE0Fui_WMPALYIEuYg/edit?usp=sharing)
+
 [Rmd for your turns](https://stat220-fa21.github.io/class_materials/activities/09-tidy-data.Rmd)
 
 
