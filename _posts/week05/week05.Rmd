@@ -1,0 +1,78 @@
+---
+title: "Week 5:"
+description: |
+  This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.
+date: 10-11-2021
+preview: week05.png
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+library(magick)
+library(magrittr)
+```
+
+```{r include=FALSE, cache=TRUE}
+hex_paths <- here("img", c("forcats.png", "stringr.png", "lubridate.png"))
+read_append <- hex_paths %>%
+  magick::image_read() %>%
+  magick::image_append()
+magick::image_write(read_append, "week05.png")
+```
+
+## Monday, 11 Oct
+
+### Topics
+
+Working with factors
+
+### Materials
+
+Slides coming soon
+
+
+### Before next time
+
+1. Read [R4DS Chapter 14](https://r4ds.had.co.nz/strings.html) - just get a feel for things, regular expressions are tricky!
+
+
+## Wednesday, 13 Oct
+
+### Topics
+
+Working with strings
+
+
+### Materials
+
+Slides coming soon
+
+
+### Before next time
+
+1. Read [R4DS Chapter 16](https://r4ds.had.co.nz/dates-and-times.html#dates-and-times)
+
+
+## Friday, 15 Oct
+
+### Announcements
+
+Homework 5 is due today at 8:30 am
+
+### Topics
+
+Working with dates and times
+
+### Materials
+
+Slides coming soon
+
+### Before next time

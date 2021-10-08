@@ -86,37 +86,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Stat 220, Fall 2021: Week 4: Tidy data</title>
+<title>Stat 220, Fall 2021: Week 5:</title>
 
-<meta property="description" itemprop="description" content="This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz."/>
+<meta property="description" itemprop="description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-10-04"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-10-04"/>
+<meta property="article:published" itemprop="datePublished" content="2021-10-11"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-10-11"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Stat 220, Fall 2021: Week 4: Tidy data"/>
+<meta property="og:title" content="Stat 220, Fall 2021: Week 5:"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz."/>
+<meta property="og:description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Stat 220, Fall 2021"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Stat 220, Fall 2021: Week 4: Tidy data"/>
-<meta property="twitter:description" content="This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz."/>
+<meta property="twitter:title" content="Stat 220, Fall 2021: Week 5:"/>
+<meta property="twitter:description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","preview","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 4: Tidy data"]},{"type":"character","attributes":{},"value":["This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz."]},{"type":"character","attributes":{},"value":["10-04-2021"]},{"type":"character","attributes":{},"value":["week04.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","preview","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 5:"]},{"type":"character","attributes":{},"value":["This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times."]},{"type":"character","attributes":{},"value":["10-11-2021"]},{"type":"character","attributes":{},"value":["week05.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["week04_files/anchor-4.2.2/anchor.min.js","week04_files/bowser-1.9.3/bowser.min.js","week04_files/distill-2.2.21/template.v2.js","week04_files/header-attrs-2.11/header-attrs.js","week04_files/jquery-3.6.0/jquery-3.6.0.js","week04_files/jquery-3.6.0/jquery-3.6.0.min.js","week04_files/jquery-3.6.0/jquery-3.6.0.min.map","week04_files/popper-2.6.0/popper.min.js","week04_files/tippy-6.2.7/tippy-bundle.umd.min.js","week04_files/tippy-6.2.7/tippy-light-border.css","week04_files/tippy-6.2.7/tippy.css","week04_files/tippy-6.2.7/tippy.umd.min.js","week04_files/webcomponents-2.0.0/webcomponents.js","week04.png"]}
+  {"type":"character","attributes":{},"value":["week05_files/anchor-4.2.2/anchor.min.js","week05_files/bowser-1.9.3/bowser.min.js","week05_files/distill-2.2.21/template.v2.js","week05_files/header-attrs-2.11/header-attrs.js","week05_files/jquery-3.6.0/jquery-3.6.0.js","week05_files/jquery-3.6.0/jquery-3.6.0.min.js","week05_files/jquery-3.6.0/jquery-3.6.0.min.map","week05_files/popper-2.6.0/popper.min.js","week05_files/tippy-6.2.7/tippy-bundle.umd.min.js","week05_files/tippy-6.2.7/tippy-light-border.css","week05_files/tippy-6.2.7/tippy.css","week05_files/tippy-6.2.7/tippy.umd.min.js","week05_files/webcomponents-2.0.0/webcomponents.js","week05.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2061,7 +2061,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 4: Tidy data","description":"This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.","authors":[],"publishedDate":"2021-10-04T00:00:00.000+00:00"}
+{"title":"Week 5:","description":"This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.","authors":[],"publishedDate":"2021-10-11T00:00:00.000+00:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2086,10 +2086,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Week 4: Tidy data</h1>
+<h1>Week 5:</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This week we will continue our discussion of data manipulation by focusing on tidying data sets. what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.</p></p>
+<p><p>This week, we’ll add to our data wrangling toolkit. You’ll learn how to efficiently work with and manipulate factors, character strings, and date/times.</p></p>
 </div>
 
 
@@ -2098,63 +2098,38 @@ document.addEventListener('DOMContentLoaded', function() {
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#monday-4-oct">Monday, 4 Oct</a></li>
-<li><a href="#wednesday-6-oct">Wednesday, 6 Oct</a></li>
-<li><a href="#friday-8-oct">Friday, 8 Oct</a></li>
+<li><a href="#monday-11-oct">Monday, 11 Oct</a></li>
+<li><a href="#wednesday-13-oct">Wednesday, 13 Oct</a></li>
+<li><a href="#friday-15-oct">Friday, 15 Oct</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="monday-4-oct">Monday, 4 Oct</h2>
+<h2 id="monday-11-oct">Monday, 11 Oct</h2>
 <h3 id="topics">Topics</h3>
-<ul>
-<li><p>Joining data sets</p></li>
-<li><p>Importing data via <code>readr</code></p></li>
-</ul>
+<p>Working with factors</p>
 <h3 id="materials">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/09-import.pdf">Data import slides</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd">Rmd for data import your turns</a></p>
-<p><a href="https://docs.google.com/document/d/1ceP_yo2qLkB80qzOvUuUrfRv4WEZRkv_kMQyOb-BRQI/edit?usp=sharing">Collaborative notes</a></p>
+<p>Slides coming soon</p>
 <h3 id="before-next-time">Before next time</h3>
 <ol type="1">
-<li><p>Read <a href="https://r4ds.had.co.nz/tidy-data.html">R4DS Chapter 12</a></p></li>
-<li><p>Work on homework 4</p></li>
-<li><p>Study for quiz 1</p></li>
+<li>Read <a href="https://r4ds.had.co.nz/strings.html">R4DS Chapter 14</a> - just get a feel for things, regular expressions are tricky!</li>
 </ol>
-<h2 id="wednesday-6-oct">Wednesday, 6 Oct</h2>
+<h2 id="wednesday-13-oct">Wednesday, 13 Oct</h2>
 <h3 id="topics-1">Topics</h3>
-<ul>
-<li><p>Tidy data</p></li>
-<li><p>Reshaping data (pivoting, separating)</p></li>
-</ul>
+<p>Working with strings</p>
 <h3 id="materials-1">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/10-tidy-data.pdf">Tidy data slides</a></p>
-<p><a href="https://docs.google.com/document/d/1E2odZeAigFSozdUbmyC_EoLkquE0Fui_WMPALYIEuYg/edit?usp=sharing">Collaborative notes</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/09-tidy-data.Rmd">Rmd for your turns</a></p>
+<p>Slides coming soon</p>
 <h3 id="before-next-time-1">Before next time</h3>
 <ol type="1">
-<li><p>Finish homework 4</p></li>
-<li><p>Finish mini project 1</p></li>
-<li><p>Study for quiz 1</p></li>
+<li>Read <a href="https://r4ds.had.co.nz/dates-and-times.html#dates-and-times">R4DS Chapter 16</a></li>
 </ol>
-<h2 id="friday-8-oct">Friday, 8 Oct</h2>
+<h2 id="friday-15-oct">Friday, 15 Oct</h2>
 <h3 id="announcements">Announcements</h3>
-<ul>
-<li><p>Homework 4 is due today by noon tomorrow (due to maize issues)</p></li>
-<li><p>Mini project 1 is due today by 8:30 am</p></li>
-<li><p>I will post Homework 5 today</p></li>
-</ul>
+<p>Homework 5 is due today at 8:30 am</p>
 <h3 id="topics-2">Topics</h3>
-<ul>
-<li><p>Joining data sets</p></li>
-<li><p>Quiz 1 (last 30 minutes)</p></li>
-</ul>
+<p>Working with dates and times</p>
 <h3 id="materials-2">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/08-joins.Rmd">Joining example .Rmd file</a></p>
+<p>Slides coming soon</p>
 <h3 id="before-next-time-2">Before next time</h3>
-<ol type="1">
-<li><p>Start homework 5</p></li>
-<li><p>Read <a href="https://r4ds.had.co.nz/factors.html">R4DS Chapter 15</a></p></li>
-</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

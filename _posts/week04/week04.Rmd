@@ -3,6 +3,7 @@ title: "Week 4: Tidy data"
 description: |
  This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.
 date: 10-04-2021
+preview: week04.png
 output:
   distill::distill_article:
     self_contained: false
@@ -14,6 +15,17 @@ draft: false
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(here)
+library(magick)
+library(magrittr)
+```
+
+```{r include=FALSE, cache=TRUE}
+hex_paths <- here("img", c("dplyr.png", "readr.png", "tidyr.png"))
+read_append <- hex_paths %>%
+  magick::image_read() %>%
+  magick::image_append()
+magick::image_write(read_append, "week04.png")
 ```
 
 ## Monday, 4 Oct
@@ -94,5 +106,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ### Before next time
 
 1. Start homework 5
+
+1. Read [R4DS Chapter 15](https://r4ds.had.co.nz/factors.html)
 
 

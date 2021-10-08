@@ -1,15 +1,27 @@
 [
   {
+    "path": "posts/week05/",
+    "title": "Week 5:",
+    "description": "This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.",
+    "author": [],
+    "date": "2021-10-11",
+    "categories": [],
+    "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nSlides coming soon\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nSlides coming soon\nBefore next time\nRead R4DS Chapter 16\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nMaterials\nSlides coming soon\nBefore next time\n\n\n\n",
+    "preview": "posts/week05/week05.png",
+    "last_modified": "2021-10-08T15:06:05-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/week04/",
     "title": "Week 4: Tidy data",
     "description": "This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.",
     "author": [],
     "date": "2021-10-04",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 4 Oct\nWednesday, 6 Oct\nFriday, 8 Oct\n\nMonday, 4 Oct\nTopics\nJoining data sets\nImporting data via readr\nMaterials\nData import slides\nRmd for data import your turns\nCollaborative notes\nBefore next time\nRead R4DS Chapter 12\nWork on homework 4\nStudy for quiz 1\nWednesday, 6 Oct\nTopics\nTidy data\nReshaping data (pivoting, separating)\nMaterials\nTidy data slides\nCollaborative notes\nRmd for your turns\nBefore next time\nFinish homework 4\nFinish mini project 1\nStudy for quiz 1\nFriday, 8 Oct\nAnnouncements\nHomework 4 is due today by noon tomorrow (due to maize issues)\nMini project 1 is due today by 8:30 am\nI will post Homework 5 today\nTopics\nJoining data sets\nQuiz 1 (last 30 minutes)\nMaterials\nJoining example .Rmd file\nBefore next time\nStart homework 5\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-10-08T08:13:18-05:00",
-    "input_file": "week04.knit.md"
+    "contents": "\n\nContents\nMonday, 4 Oct\nWednesday, 6 Oct\nFriday, 8 Oct\n\nMonday, 4 Oct\nTopics\nJoining data sets\nImporting data via readr\nMaterials\nData import slides\nRmd for data import your turns\nCollaborative notes\nBefore next time\nRead R4DS Chapter 12\nWork on homework 4\nStudy for quiz 1\nWednesday, 6 Oct\nTopics\nTidy data\nReshaping data (pivoting, separating)\nMaterials\nTidy data slides\nCollaborative notes\nRmd for your turns\nBefore next time\nFinish homework 4\nFinish mini project 1\nStudy for quiz 1\nFriday, 8 Oct\nAnnouncements\nHomework 4 is due today by noon tomorrow (due to maize issues)\nMini project 1 is due today by 8:30 am\nI will post Homework 5 today\nTopics\nJoining data sets\nQuiz 1 (last 30 minutes)\nMaterials\nJoining example .Rmd file\nBefore next time\nStart homework 5\nRead R4DS Chapter 15\n\n\n\n",
+    "preview": "posts/week04/week04.png",
+    "last_modified": "2021-10-08T15:00:02-05:00",
+    "input_file": {}
   },
   {
     "path": "posts/week03/",
