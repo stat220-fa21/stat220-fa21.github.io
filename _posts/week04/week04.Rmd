@@ -26,8 +26,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Materials
 
-[Joining example .Rmd file](https://stat220-fa21.github.io/class_materials/activities/08-joins.Rmd)
-
 [Data import slides](https://stat220-fa21.github.io/class_materials/slides/09-import.pdf)
 
 [Rmd for data import your turns](https://stat220-fa21.github.io/class_materials/activities/08-import.Rmd)
@@ -75,7 +73,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Announcements
 
-- Homework 4 is due today by 8:30 am
+- Homework 4 is due today by noon tomorrow (due to maize issues)
 
 - Mini project 1 is due today by 8:30 am
 
@@ -83,9 +81,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics
 
-- Working with dates and times
+- Joining data sets
 
 - Quiz 1 (last 30 minutes)
+
+
+### Materials
+
+[Joining example .Rmd file](https://stat220-fa21.github.io/class_materials/activities/08-joins.Rmd)
 
 
 ### Before next time
