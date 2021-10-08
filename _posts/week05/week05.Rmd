@@ -1,5 +1,5 @@
 ---
-title: "Week 5:"
+title: "Week 5: Factors and strings and dates, oh my!"
 description: |
   This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.
 date: 10-11-2021
