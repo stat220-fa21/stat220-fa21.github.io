@@ -36,12 +36,16 @@ Working with factors
 
 ### Materials
 
-Slides coming soon
+[Factors slides](https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.pdf)
+
+[Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/12-factors.Rmd)
 
 
 ### Before next time
 
 1. Read [R4DS Chapter 14](https://r4ds.had.co.nz/strings.html) - just get a feel for things, regular expressions are tricky!
+
+1. Work on homework
 
 
 ## Wednesday, 13 Oct
@@ -59,6 +63,8 @@ Slides coming soon
 ### Before next time
 
 1. Read [R4DS Chapter 16](https://r4ds.had.co.nz/dates-and-times.html#dates-and-times)
+
+1. Finish homework
 
 
 ## Friday, 15 Oct

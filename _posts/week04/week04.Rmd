@@ -102,6 +102,10 @@ magick::image_write(read_append, "week04.png")
 
 [Joining example .Rmd file](https://stat220-fa21.github.io/class_materials/activities/08-joins.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/1p1-Ejvsldat6-adwGd4_4T3j1jSRgiW2VR4v-e4Eltw/edit?usp=sharing)
+
+[Solution to joining example](https://stat220-fa21.github.io/class_materials/activities/08-soln-joins.pdf)
+
 
 ### Before next time
 
