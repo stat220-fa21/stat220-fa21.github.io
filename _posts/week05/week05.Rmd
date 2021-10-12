@@ -36,7 +36,7 @@ Working with factors
 
 ### Materials
 
-[Factors slides](https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.pdf)
+[Factors slides](https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.html) (here's a [pdf version](https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.pdf))
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/12-factors.Rmd)
 

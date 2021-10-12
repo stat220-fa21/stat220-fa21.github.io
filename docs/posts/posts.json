@@ -6,10 +6,10 @@
     "author": [],
     "date": "2021-10-11",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nFactors slides\nYour turn .Rmd\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWork on homework\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nSlides coming soon\nBefore next time\nRead R4DS Chapter 16\nFinish homework\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nMaterials\nSlides coming soon\nBefore next time\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nFactors slides (here’s a pdf version)\nYour turn .Rmd\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWork on homework\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nSlides coming soon\nBefore next time\nRead R4DS Chapter 16\nFinish homework\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nMaterials\nSlides coming soon\nBefore next time\n\n\n\n",
     "preview": "posts/week05/week05.png",
-    "last_modified": "2021-10-10T14:43:12-05:00",
-    "input_file": {}
+    "last_modified": "2021-10-12T10:58:35-05:00",
+    "input_file": "week05.knit.md"
   },
   {
     "path": "posts/week04/",
