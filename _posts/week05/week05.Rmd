@@ -40,6 +40,7 @@ Working with factors
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/12-factors.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/1q_75EnPmONzfp4OeY0hZLqLhEVB7obqkjVrjo0_5ng4/edit?usp=sharing)
 
 ### Before next time
 
@@ -57,7 +58,9 @@ Working with strings
 
 ### Materials
 
-Slides coming soon
+[String manipulation slides](https://stat220-fa21.github.io/class_materials/slides/13-strings.pdf)
+
+[Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/13-strings.Rmd)
 
 
 ### Before next time
