@@ -78,10 +78,18 @@ Homework 5 is due today at 8:30 am
 
 ### Topics
 
-Working with dates and times
+~~Working with dates and times~~
+
+Finish regular expressions and practice!
 
 ### Materials
 
-Slides coming soon
+[String manipulation slides](https://stat220-fa21.github.io/class_materials/slides/13-strings.pdf) (finishing up from last time)
+
+[Example .Rmd](https://stat220-fa21.github.io/class_materials/activities/14-regex-examples.Rmd)
+
+
 
 ### Before next time
+
+Have a good midterm break! I'll post a homework, but it won't be overly long.
