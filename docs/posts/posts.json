@@ -9,7 +9,7 @@
     "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nFactors slides (here’s a pdf version)\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWork on homework\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nString manipulation slides\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 16\nFinish homework\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nFinish regular expressions and practice!\nMaterials\nString manipulation slides (finishing up from last time)\nExample .Rmd\nBefore next time\nHave a good midterm break! I’ll post a homework, but it won’t be overly long.\n\n\n\n",
     "preview": "posts/week05/week05.png",
     "last_modified": "2021-10-15T10:41:38-05:00",
-    "input_file": "week05.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/week04/",
