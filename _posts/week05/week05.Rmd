@@ -62,6 +62,7 @@ Working with strings
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/13-strings.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/16iuq4ZMSfGKo9AOC0nrTWr7QzHM-gL2S3u4NRnMMTkg/edit?usp=sharing)
 
 ### Before next time
 
