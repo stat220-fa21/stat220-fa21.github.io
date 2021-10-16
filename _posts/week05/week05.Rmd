@@ -89,7 +89,7 @@ Finish regular expressions and practice!
 
 [Example .Rmd](https://stat220-fa21.github.io/class_materials/activities/14-regex-examples.Rmd)
 
-
+[Solutions to regex examples](https://stat220-fa21.github.io/class_materials/activities/14-regex-examples-soln.pdf)
 
 ### Before next time
 
