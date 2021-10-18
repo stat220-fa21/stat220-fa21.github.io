@@ -86,36 +86,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Week 5: Factors and strings and dates, oh my!</title>
+  <title>Week 6: Web scraping and functions</title>
 
-  <meta property="description" itemprop="description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
+  <meta property="description" itemprop="description" content="This week, you&#39;ll learn how to scrape data from the web using the `rvest` package and how to write basic functions."/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-10-11"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-10-11"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-10-18"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-10-18"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Week 5: Factors and strings and dates, oh my!"/>
+  <meta property="og:title" content="Week 6: Web scraping and functions"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
+  <meta property="og:description" content="This week, you&#39;ll learn how to scrape data from the web using the `rvest` package and how to write basic functions."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Week 5: Factors and strings and dates, oh my!"/>
-  <meta property="twitter:description" content="This week, we&#39;ll add to our data wrangling toolkit. You&#39;ll learn how to efficiently work with and manipulate factors, character strings, and date/times."/>
+  <meta property="twitter:title" content="Week 6: Web scraping and functions"/>
+  <meta property="twitter:description" content="This week, you&#39;ll learn how to scrape data from the web using the `rvest` package and how to write basic functions."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","preview","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 5: Factors and strings and dates, oh my!"]},{"type":"character","attributes":{},"value":["This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.\n"]},{"type":"character","attributes":{},"value":["10-11-2021"]},{"type":"character","attributes":{},"value":["week05.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 6: Web scraping and functions"]},{"type":"character","attributes":{},"value":["This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.\n"]},{"type":"character","attributes":{},"value":["10-18-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["week05_files/anchor-4.2.2/anchor.min.js","week05_files/bowser-1.9.3/bowser.min.js","week05_files/distill-2.2.21/template.v2.js","week05_files/header-attrs-2.11/header-attrs.js","week05_files/jquery-3.6.0/jquery-3.6.0.js","week05_files/jquery-3.6.0/jquery-3.6.0.min.js","week05_files/jquery-3.6.0/jquery-3.6.0.min.map","week05_files/popper-2.6.0/popper.min.js","week05_files/tippy-6.2.7/tippy-bundle.umd.min.js","week05_files/tippy-6.2.7/tippy-light-border.css","week05_files/tippy-6.2.7/tippy.css","week05_files/tippy-6.2.7/tippy.umd.min.js","week05_files/webcomponents-2.0.0/webcomponents.js","week05.png"]}
+  {"type":"character","attributes":{},"value":["week06_files/anchor-4.2.2/anchor.min.js","week06_files/bowser-1.9.3/bowser.min.js","week06_files/distill-2.2.21/template.v2.js","week06_files/header-attrs-2.11/header-attrs.js","week06_files/jquery-3.6.0/jquery-3.6.0.js","week06_files/jquery-3.6.0/jquery-3.6.0.min.js","week06_files/jquery-3.6.0/jquery-3.6.0.min.map","week06_files/popper-2.6.0/popper.min.js","week06_files/tippy-6.2.7/tippy-bundle.umd.min.js","week06_files/tippy-6.2.7/tippy-light-border.css","week06_files/tippy-6.2.7/tippy.css","week06_files/tippy-6.2.7/tippy.umd.min.js","week06_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1433,16 +1433,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="week05_files/header-attrs-2.11/header-attrs.js"></script>
-  <script src="week05_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <script src="week05_files/popper-2.6.0/popper.min.js"></script>
-  <link href="week05_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="week05_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="week05_files/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="week05_files/anchor-4.2.2/anchor.min.js"></script>
-  <script src="week05_files/bowser-1.9.3/bowser.min.js"></script>
-  <script src="week05_files/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="week05_files/distill-2.2.21/template.v2.js"></script>
+  <script src="week06_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="week06_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="week06_files/popper-2.6.0/popper.min.js"></script>
+  <link href="week06_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="week06_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="week06_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="week06_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="week06_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="week06_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="week06_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1454,7 +1454,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 5: Factors and strings and dates, oh my!","description":"This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.","authors":[],"publishedDate":"2021-10-11T00:00:00.000+00:00"}
+{"title":"Week 6: Web scraping and functions","description":"This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.","authors":[],"publishedDate":"2021-10-18T00:00:00.000+00:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1464,10 +1464,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Week 5: Factors and strings and dates, oh my!</h1>
+<h1>Week 6: Web scraping and functions</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This week, we’ll add to our data wrangling toolkit. You’ll learn how to efficiently work with and manipulate factors, character strings, and date/times.</p></p>
+<p><p>This week, you’ll learn how to scrape data from the web using the <code>rvest</code> package and how to write basic functions.</p></p>
 </div>
 
 
@@ -1476,49 +1476,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#monday-11-oct">Monday, 11 Oct</a></li>
-<li><a href="#wednesday-13-oct">Wednesday, 13 Oct</a></li>
-<li><a href="#friday-15-oct">Friday, 15 Oct</a></li>
+<li><a href="#monday-18-oct">Monday, 18 Oct</a></li>
+<li><a href="#wednesday-20-oct">Wednesday, 20 Oct</a></li>
+<li><a href="#friday-22-oct">Friday, 22 Oct</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="monday-11-oct">Monday, 11 Oct</h2>
+<h2 id="monday-18-oct">Monday, 18 Oct</h2>
 <h3 id="topics">Topics</h3>
-<p>Working with factors</p>
-<h3 id="materials">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.html">Factors slides</a> (here’s a <a href="https://stat220-fa21.github.io/class_materials/slides/12-factors-forcats.pdf">pdf version</a>)</p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/12-factors.Rmd">Your turn .Rmd</a></p>
-<p><a href="https://docs.google.com/document/d/1q_75EnPmONzfp4OeY0hZLqLhEVB7obqkjVrjo0_5ng4/edit?usp=sharing">Collaborative notes</a></p>
+<p>No class - Midterm break</p>
 <h3 id="before-next-time">Before next time</h3>
 <ol type="1">
-<li><p>Read <a href="https://r4ds.had.co.nz/strings.html">R4DS Chapter 14</a> - just get a feel for things, regular expressions are tricky!</p></li>
-<li><p>Work on homework</p></li>
+<li>Read <a href="https://rafalab.github.io/dsbook/web-scraping.html">Irizarry Chapter 23</a> on web scraping (it’s short)</li>
 </ol>
-<h2 id="wednesday-13-oct">Wednesday, 13 Oct</h2>
+<h2 id="wednesday-20-oct">Wednesday, 20 Oct</h2>
+<h3 id="announcements">Announcements</h3>
+<p>Quiz 2 is on Friday</p>
 <h3 id="topics-1">Topics</h3>
-<p>Working with strings</p>
-<h3 id="materials-1">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/13-strings.pdf">String manipulation slides</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/13-strings.Rmd">Your turn .Rmd</a></p>
-<p><a href="https://docs.google.com/document/d/16iuq4ZMSfGKo9AOC0nrTWr7QzHM-gL2S3u4NRnMMTkg/edit?usp=sharing">Collaborative notes</a></p>
+<p>Scraping data from the web</p>
+<h3 id="materials">Materials</h3>
+<p><a href="https://stat220-fa21.github.io/class_materials/slides/14-scraping.pdf">Web scraping slides</a></p>
 <h3 id="before-next-time-1">Before next time</h3>
 <ol type="1">
-<li><p>Read <a href="https://r4ds.had.co.nz/dates-and-times.html#dates-and-times">R4DS Chapter 16</a></p></li>
-<li><p>Finish homework</p></li>
+<li><p>Finish the homework</p></li>
+<li><p>Read <a href="https://rafalab.github.io/dsbook/programming-basics.html#defining-functions">Irizarry Section 3.2</a></p></li>
 </ol>
-<h2 id="friday-15-oct">Friday, 15 Oct</h2>
-<h3 id="announcements">Announcements</h3>
-<p>Homework 5 is due today at 8:30 am</p>
+<h2 id="friday-22-oct">Friday, 22 Oct</h2>
+<h3 id="announcements-1">Announcements</h3>
+<p>Homework 6 is due today at 8:30 am</p>
 <h3 id="topics-2">Topics</h3>
-<p><del>Working with dates and times</del></p>
-<p>Finish regular expressions and practice!</p>
-<h3 id="materials-2">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/13-strings.pdf">String manipulation slides</a> (finishing up from last time)</p>
-<p><a href="https://docs.google.com/document/d/1f49LKjOA5UzY_hurr7vRGqN3vlUhxf0lNMQUFt5nOQo/edit?usp=sharing">Collaborative notes</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/14-regex-examples.Rmd">Example .Rmd</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/14-regex-examples-soln.pdf">Solutions to regex examples</a></p>
-<h3 id="before-next-time-2">Before next time</h3>
-<p>Have a good midterm break! I’ll post a homework, but it won’t be overly long.</p>
+<p>Writing functions in R</p>
+<p>Quiz 2</p>
+<h3 id="materials-1">Materials</h3>
+<p><a href="https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf">Function slides</a> (We’ll only cover the first section today)</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

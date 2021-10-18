@@ -87,6 +87,8 @@ Finish regular expressions and practice!
 
 [String manipulation slides](https://stat220-fa21.github.io/class_materials/slides/13-strings.pdf) (finishing up from last time)
 
+[Collaborative notes](https://docs.google.com/document/d/1f49LKjOA5UzY_hurr7vRGqN3vlUhxf0lNMQUFt5nOQo/edit?usp=sharing)
+
 [Example .Rmd](https://stat220-fa21.github.io/class_materials/activities/14-regex-examples.Rmd)
 
 [Solutions to regex examples](https://stat220-fa21.github.io/class_materials/activities/14-regex-examples-soln.pdf)

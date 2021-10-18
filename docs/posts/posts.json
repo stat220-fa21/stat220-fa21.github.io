@@ -1,14 +1,26 @@
 [
   {
+    "path": "posts/week06/",
+    "title": "Week 6: Web scraping and functions",
+    "description": "This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.",
+    "author": [],
+    "date": "2021-10-18",
+    "categories": [],
+    "contents": "\n\nContents\nMonday, 18 Oct\nWednesday, 20 Oct\nFriday, 22 Oct\n\nMonday, 18 Oct\nTopics\nNo class - Midterm break\nBefore next time\nRead Irizarry Chapter 23 on web scraping (it’s short)\nWednesday, 20 Oct\nAnnouncements\nQuiz 2 is on Friday\nTopics\nScraping data from the web\nMaterials\nWeb scraping slides\nBefore next time\nFinish the homework\nRead Irizarry Section 3.2\nFriday, 22 Oct\nAnnouncements\nHomework 6 is due today at 8:30 am\nTopics\nWriting functions in R\nQuiz 2\nMaterials\nFunction slides (We’ll only cover the first section today)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-10-18T15:43:46-05:00",
+    "input_file": "week06.knit.md"
+  },
+  {
     "path": "posts/week05/",
     "title": "Week 5: Factors and strings and dates, oh my!",
     "description": "This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.",
     "author": [],
     "date": "2021-10-11",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nFactors slides (here’s a pdf version)\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWork on homework\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nString manipulation slides\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 16\nFinish homework\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nFinish regular expressions and practice!\nMaterials\nString manipulation slides (finishing up from last time)\nExample .Rmd\nSolutions to regex examples\nBefore next time\nHave a good midterm break! I’ll post a homework, but it won’t be overly long.\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 11 Oct\nWednesday, 13 Oct\nFriday, 15 Oct\n\nMonday, 11 Oct\nTopics\nWorking with factors\nMaterials\nFactors slides (here’s a pdf version)\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 14 - just get a feel for things, regular expressions are tricky!\nWork on homework\nWednesday, 13 Oct\nTopics\nWorking with strings\nMaterials\nString manipulation slides\nYour turn .Rmd\nCollaborative notes\nBefore next time\nRead R4DS Chapter 16\nFinish homework\nFriday, 15 Oct\nAnnouncements\nHomework 5 is due today at 8:30 am\nTopics\nWorking with dates and times\nFinish regular expressions and practice!\nMaterials\nString manipulation slides (finishing up from last time)\nCollaborative notes\nExample .Rmd\nSolutions to regex examples\nBefore next time\nHave a good midterm break! I’ll post a homework, but it won’t be overly long.\n\n\n\n",
     "preview": "posts/week05/week05.png",
-    "last_modified": "2021-10-16T09:59:23-05:00",
+    "last_modified": "2021-10-18T15:43:40-05:00",
     "input_file": "week05.knit.md"
   },
   {

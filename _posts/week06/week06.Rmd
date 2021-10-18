@@ -1,0 +1,62 @@
+---
+title: "Week 6: Web scraping and functions"
+description: |
+  This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.
+date: 10-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: false
+---
+
+## Monday, 18 Oct
+
+### Topics
+
+No class - Midterm break
+
+
+### Before next time
+
+1. Read [Irizarry Chapter 23](https://rafalab.github.io/dsbook/web-scraping.html) on web scraping (it's short)
+
+
+
+## Wednesday, 20 Oct
+
+### Announcements
+
+Quiz 2 is on Friday
+
+
+### Topics
+
+Scraping data from the web
+
+### Materials
+
+[Web scraping slides](https://stat220-fa21.github.io/class_materials/slides/14-scraping.pdf)
+
+### Before next time
+
+1. Finish the homework
+
+1. Read [Irizarry Section 3.2](https://rafalab.github.io/dsbook/programming-basics.html#defining-functions)
+
+## Friday, 22 Oct
+
+### Announcements
+
+Homework 6 is due today at 8:30 am
+
+### Topics
+
+Writing functions in R
+
+Quiz 2
+
+### Materials
+
+[Function slides](https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf) (We'll only cover the first section today)
