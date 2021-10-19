@@ -22,6 +22,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Token spending form](https://forms.gle/gi5T5aHQwhuwtkQ79)
 
+- [Mistake report](https://forms.gle/f4ZeeAbYrUt8MrP36)
+
 - [Talk reflection form](https://forms.gle/bnvmACJiZsjQnGB1A) (Fill this out to earn a token for attending a stats/data science colloquium.)
 
 - [Schedule an appointment](https://calendly.com/aloy-meetings/15min)
