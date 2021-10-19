@@ -1869,7 +1869,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2061,7 +2064,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 6: Web scraping and functions","description":"This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.","authors":[],"publishedDate":"2021-10-18T00:00:00.000+00:00"}
+{"title":"Week 6: Web scraping and functions","description":"This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.","authors":[],"publishedDate":"2021-10-18T00:00:00.000-05:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
