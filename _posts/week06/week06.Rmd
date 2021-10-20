@@ -39,6 +39,8 @@ Scraping data from the web
 
 [Web scraping slides](https://stat220-fa21.github.io/class_materials/slides/14-scraping.pdf)
 
+[.Rmd for your turns](https://stat220-fa21.github.io/class_materials/activities/15-web-scraping.Rmd)
+
 ### Before next time
 
 1. Finish the homework

@@ -6,10 +6,10 @@
     "author": [],
     "date": "2021-10-18",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 18 Oct\nWednesday, 20 Oct\nFriday, 22 Oct\n\nMonday, 18 Oct\nTopics\nNo class - Midterm break\nBefore next time\nRead Irizarry Chapter 23 on web scraping (it’s short)\nWednesday, 20 Oct\nAnnouncements\nQuiz 2 is on Friday\nTopics\nScraping data from the web\nMaterials\nWeb scraping slides\nBefore next time\nFinish the homework\nRead Irizarry Section 3.2\nFriday, 22 Oct\nAnnouncements\nHomework 6 is due today at 8:30 am\nTopics\nWriting functions in R\nQuiz 2\nMaterials\nFunction slides (We’ll only cover the first section today)\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 18 Oct\nWednesday, 20 Oct\nFriday, 22 Oct\n\nMonday, 18 Oct\nTopics\nNo class - Midterm break\nBefore next time\nRead Irizarry Chapter 23 on web scraping (it’s short)\nWednesday, 20 Oct\nAnnouncements\nQuiz 2 is on Friday\nTopics\nScraping data from the web\nMaterials\nWeb scraping slides\n.Rmd for your turns\nBefore next time\nFinish the homework\nRead Irizarry Section 3.2\nFriday, 22 Oct\nAnnouncements\nHomework 6 is due today at 8:30 am\nTopics\nWriting functions in R\nQuiz 2\nMaterials\nFunction slides (We’ll only cover the first section today)\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-18T15:43:46-05:00",
-    "input_file": {}
+    "last_modified": "2021-10-19T19:49:25-05:00",
+    "input_file": "week06.knit.md"
   },
   {
     "path": "posts/week05/",
