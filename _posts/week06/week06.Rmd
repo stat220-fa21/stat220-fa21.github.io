@@ -41,6 +41,8 @@ Scraping data from the web
 
 [.Rmd for your turns](https://stat220-fa21.github.io/class_materials/activities/15-web-scraping.Rmd)
 
+[Your turn solutions](https://stat220-fa21.github.io/class_materials/activities/15-soln-web-scraping.pdf)
+
 ### Before next time
 
 1. Finish the homework
