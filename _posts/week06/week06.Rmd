@@ -49,7 +49,7 @@ Scraping data from the web
 
 1. Finish the homework
 
-1. Read [Irizarry Section 3.2](https://rafalab.github.io/dsbook/programming-basics.html#defining-functions)
+
 
 ## Friday, 22 Oct
 
@@ -59,10 +59,19 @@ Homework 6 is due today at 8:30 am
 
 ### Topics
 
-Writing functions in R
+Practice web scraping
 
 Quiz 2
 
 ### Materials
 
-[Function slides](https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf) (We'll only cover the first section today)
+[Web scraping example .Rmd](https://stat220-fa21.github.io/class_materials/activities/16-web-scraping2.Rmd)
+
+
+### Before next time
+
+1. Read [Irizarry Section 3.2](https://rafalab.github.io/dsbook/programming-basics.html#defining-functions)
+
+1. Start working on mini project 2
+
+1. Start homework 7 (to be posted today)
