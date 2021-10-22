@@ -1,7 +1,7 @@
 ---
-title: "Week 6: Web scraping and functions"
+title: "Week 6: Web scraping"
 description: |
-  This week, you'll learn how to scrape data from the web using the `rvest` package and how to write basic functions.
+  This week, you'll learn how to scrape data from the web using the `rvest` package.
 date: 10-18-2021
 output:
   distill::distill_article:
