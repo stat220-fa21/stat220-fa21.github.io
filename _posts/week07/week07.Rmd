@@ -23,6 +23,8 @@ Writing functions
 
 [Function slides](https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf)
 
+[You turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd)
+
 ### Before next time
 
 1. Read [Irizarry Section 3.1](https://rafalab.github.io/dsbook/programming-basics.html#conditionals) on conditional execution
