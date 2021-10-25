@@ -1,7 +1,7 @@
 ---
-title: "Week 7:"
+title: "Week 7: Functions, iteration, and more"
 description: |
-  A short description of the post.
+  This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.
 date: 2021-10-25
 output:
   distill::distill_article:

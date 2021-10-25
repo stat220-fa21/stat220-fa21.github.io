@@ -1,14 +1,14 @@
 [
   {
     "path": "posts/week07/",
-    "title": "Week 7:",
-    "description": "A short description of the post.",
+    "title": "Week 7: Functions, iteration, and more",
+    "description": "This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.",
     "author": [],
     "date": "2021-10-25",
     "categories": [],
     "contents": "\nMonday, 25 Oct\nTopics\nWriting functions\nMaterials\nFunction slides\nYou turn .Rmd\nBefore next time\nRead Irizarry Section 3.1 on conditional execution\nRead R4DS Sections 21.1-21.3 on for loops\nWork on homework 7 and mini project 2\nWednesday, 27 Oct\nTopics\nIteration and conditional execution\nMaterials\nStay tuned…\n\nBefore next time\nRead…\nFinish homework 7\nWork on mini project 2\nFriday, 29 Oct\nAnnouncements\nHomework 7 is due today at 8:30 am\nMini project 2 is due tomorrow by noon\nTopics\nIntroduction to interactive graphics\nMaterials\nStay tuned…\nBefore next time\nTurn in mini project 2 tomorrow\nStart homework 8 (to be posted today)\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-24T12:57:08-05:00",
+    "last_modified": "2021-10-25T08:18:50-05:00",
     "input_file": "week07.knit.md"
   },
   {
