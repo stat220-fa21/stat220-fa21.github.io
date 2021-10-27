@@ -25,6 +25,8 @@ Writing functions
 
 [You turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing)
+
 ### Before next time
 
 1. Read [Irizarry Section 3.1](https://rafalab.github.io/dsbook/programming-basics.html#conditionals) on conditional execution
@@ -42,14 +44,15 @@ Iteration and conditional execution
 
 ### Materials
 
-Stay tuned...
+
+[Iteration slides](https://stat220-fa21.github.io/class_materials/slides/16-iteration.pdf)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1CT1d3zBJl1aToV_rP7hCx2eeKGzcrGYhUVjcaTDPrMo/edit?usp=sharing) -->
 
 
 ### Before next time
 
-1. Read...
+1. Read sections 2-5 of the [tidyverse style guidelines](https://style.tidyverse.org/syntax.html)
 
 1. Finish homework 7
 
