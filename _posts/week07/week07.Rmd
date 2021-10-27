@@ -23,7 +23,7 @@ Writing functions
 
 [Function slides](https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf)
 
-[You turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd)
+[Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd)
 
 [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing)
 
@@ -46,6 +46,8 @@ Iteration and conditional execution
 
 
 [Iteration slides](https://stat220-fa21.github.io/class_materials/slides/16-iteration.pdf)
+
+[Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/18-iteration.Rmd)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1CT1d3zBJl1aToV_rP7hCx2eeKGzcrGYhUVjcaTDPrMo/edit?usp=sharing) -->
 
