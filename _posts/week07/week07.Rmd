@@ -56,6 +56,8 @@ Iteration and conditional execution
 
 1. Read sections 2-5 of the [tidyverse style guidelines](https://style.tidyverse.org/syntax.html)
 
+1. Watch [video on dates and times with lubridate](https://youtu.be/lmDL4o1aa0Q)
+
 1. Finish homework 7
 
 1. Work on mini project 2
