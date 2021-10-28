@@ -25,6 +25,8 @@ Writing functions
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd)
 
+[Your turn solution](https://stat220-fa21.github.io/class_materials/activities/17-soln-functions.pdf)
+
 [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing)
 
 ### Before next time
@@ -49,7 +51,7 @@ Iteration and conditional execution
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/18-iteration.Rmd)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1CT1d3zBJl1aToV_rP7hCx2eeKGzcrGYhUVjcaTDPrMo/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing)
 
 
 ### Before next time
