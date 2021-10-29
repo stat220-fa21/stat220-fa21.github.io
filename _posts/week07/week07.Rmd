@@ -87,3 +87,7 @@ Introduction to interactive graphics
 1. Turn in mini project 2 tomorrow
 
 1. Start homework 8 (to be posted today)
+
+1. Watch [coding style video](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ddb79fe7-4c69-4abe-9f87-aba700311a16)
+
+1. Optional: [functional programming](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c1609a3-8366-4e75-94d5-abb400dcc676) (another way to iterate)
