@@ -51,6 +51,8 @@ Iteration and conditional execution
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/18-iteration.Rmd)
 
+[Your turn solutions](https://stat220-fa21.github.io/class_materials/activities/18-soln-iteration.pdf)
+
 [Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing)
 
 
