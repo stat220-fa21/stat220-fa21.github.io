@@ -84,6 +84,8 @@ Introduction to interactive graphics
 
 [Interactive report .Rmd](https://stat220-fa21.github.io/class_materials/slides/17-shiny-reports.Rmd)
 
+[Collaborative notes](https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing)
+
 ### Before next time
 
 1. Turn in mini project 2 tomorrow
