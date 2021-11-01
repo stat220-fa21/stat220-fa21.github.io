@@ -9,7 +9,7 @@
     "contents": "\n\nContents\nMonday, 01 Nov\nWednesday, 03 Nov\nFriday, 05 Nov\n\nMonday, 01 Nov\nTopics\nInteractive reports examples\nFrom reports to applications\nMaterials\nWe’ll work on examples from Friday’s Interactive report .Rmd\nBefore next time\nWatch Shiny tutorial videos by Garrett Grolemund (approx 47 min, it’s broken down into a playlist of 11 videos)\nWednesday, 03 Nov\nTopics\nReactivity in shiny apps\nMaterials\nCheck back soon.\n\nBefore next time\nFinish homework 8\nFriday, 05 Nov\nAnnouncements\nHomework 8 is due today at 8:30 am\nTopics\nColumns and other shiny app customizations\nMaterials\nCheck back soon.\n\nBefore next time\nStart homework 9 (to be posted today)\n\n\n\n",
     "preview": {},
     "last_modified": "2021-10-31T21:06:25-05:00",
-    "input_file": "week08.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/week07/",
@@ -21,7 +21,7 @@
     "contents": "\n\nContents\nMonday, 25 Oct\nWednesday, 27 Oct\nFriday, 29 Oct\n\nMonday, 25 Oct\nTopics\nWriting functions\nMaterials\nFunction slides\nYour turn .Rmd\nYour turn solution\nCollaborative notes\nBefore next time\nRead Irizarry Section 3.1 on conditional execution\nRead R4DS Sections 21.1-21.3 on for loops\nWork on homework 7 and mini project 2\nWednesday, 27 Oct\nTopics\nIteration and conditional execution\nMaterials\nIteration slides\nYour turn .Rmd\nYour turn solutions\nCollaborative notes\nBefore next time\nRead sections 2-5 of the tidyverse style guidelines\nWatch video on dates and times with lubridate\nFinish homework 7\nWork on mini project 2\nFriday, 29 Oct\nAnnouncements\nHomework 7 is due today at 8:30 am\nMini project 2 is due tomorrow by noon\nTopics\nIntroduction to interactive graphics\nMaterials\nInteractive report .Rmd\nCollaborative notes\nBefore next time\nTurn in mini project 2 tomorrow\nStart homework 8 (to be posted today)\nWatch coding style video\nOptional: functional programming (another way to iterate)\n\n\n\n",
     "preview": {},
     "last_modified": "2021-10-31T20:24:01-05:00",
-    "input_file": "week07.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/week06/",
@@ -33,7 +33,7 @@
     "contents": "\n\nContents\nMonday, 18 Oct\nWednesday, 20 Oct\nFriday, 22 Oct\n\nMonday, 18 Oct\nTopics\nNo class - Midterm break\nBefore next time\nRead Irizarry Chapter 23 on web scraping (it’s short)\nWednesday, 20 Oct\nAnnouncements\nQuiz 2 is on Friday\nTopics\nScraping data from the web\nMaterials\nWeb scraping slides\nCollaborative notes\n.Rmd for your turns\nYour turn solutions\nBefore next time\nFinish the homework\nFriday, 22 Oct\nAnnouncements\nHomework 6 is due today at 8:30 am\nTopics\nPractice web scraping\nQuiz 2\nMaterials\nWeb scraping example .Rmd\nBefore next time\nRead Irizarry Section 3.2\nStart working on mini project 2\nStart homework 7 (to be posted today)\n\n\n\n",
     "preview": {},
     "last_modified": "2021-10-22T14:25:59-05:00",
-    "input_file": "week06.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/week05/",

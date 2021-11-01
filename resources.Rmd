@@ -38,6 +38,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Homework solutions
 
+- [Homework 7 solution](https://www.dropbox.com/s/ati6j9x1dxbglxj/hw7-sol-stat220-fa21.pdf?dl=0)
+
+- [Homework 6 solution](https://www.dropbox.com/s/hid7cb706n9m43u/hw6-sol-stat220-fa21.pdf?dl=0)
+
 - [Homework 5 solution](https://www.dropbox.com/s/lazplfmb6zpl12w/hw5-soln-stat220-fa21.pdf?dl=0)
 
 - [Homework 4 solution](https://www.dropbox.com/s/skfewnfknf18lqn/hw4-soln-stat220-fa21.pdf?dl=0)
