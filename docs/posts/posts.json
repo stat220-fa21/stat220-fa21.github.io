@@ -1,14 +1,26 @@
 [
   {
+    "path": "posts/week08/",
+    "title": "Week 8: Shiny apps",
+    "description": "This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!",
+    "author": [],
+    "date": "2021-11-01",
+    "categories": [],
+    "contents": "\n\nContents\nMonday, 01 Nov\nWednesday, 03 Nov\nFriday, 05 Nov\n\nMonday, 01 Nov\nTopics\nInteractive reports examples\nFrom reports to applications\nMaterials\nWe’ll work on examples from Friday’s Interactive report .Rmd\nBefore next time\nWatch Shiny tutorial videos by Garrett Grolemund (approx 47 min, it’s broken down into a playlist of 11 videos)\nWednesday, 03 Nov\nTopics\nReactivity in shiny apps\nMaterials\nCheck back soon.\n\nBefore next time\nFinish homework 8\nFriday, 05 Nov\nAnnouncements\nHomework 8 is due today at 8:30 am\nTopics\nColumns and other shiny app customizations\nMaterials\nCheck back soon.\n\nBefore next time\nStart homework 9 (to be posted today)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-10-31T21:06:25-05:00",
+    "input_file": "week08.knit.md"
+  },
+  {
     "path": "posts/week07/",
     "title": "Week 7: Functions, iteration, and more",
     "description": "This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.",
     "author": [],
     "date": "2021-10-25",
     "categories": [],
-    "contents": "\nMonday, 25 Oct\nTopics\nWriting functions\nMaterials\nFunction slides\nYour turn .Rmd\nYour turn solution\nCollaborative notes\nBefore next time\nRead Irizarry Section 3.1 on conditional execution\nRead R4DS Sections 21.1-21.3 on for loops\nWork on homework 7 and mini project 2\nWednesday, 27 Oct\nTopics\nIteration and conditional execution\nMaterials\nIteration slides\nYour turn .Rmd\nYour turn solutions\nCollaborative notes\nBefore next time\nRead sections 2-5 of the tidyverse style guidelines\nWatch video on dates and times with lubridate\nFinish homework 7\nWork on mini project 2\nFriday, 29 Oct\nAnnouncements\nHomework 7 is due today at 8:30 am\nMini project 2 is due tomorrow by noon\nTopics\nIntroduction to interactive graphics\nMaterials\nInteractive report .Rmd\nCollaborative notes\nBefore next time\nTurn in mini project 2 tomorrow\nStart homework 8 (to be posted today)\nWatch coding style video\nOptional: functional programming (another way to iterate)\n\n\n\n",
+    "contents": "\n\nContents\nMonday, 25 Oct\nWednesday, 27 Oct\nFriday, 29 Oct\n\nMonday, 25 Oct\nTopics\nWriting functions\nMaterials\nFunction slides\nYour turn .Rmd\nYour turn solution\nCollaborative notes\nBefore next time\nRead Irizarry Section 3.1 on conditional execution\nRead R4DS Sections 21.1-21.3 on for loops\nWork on homework 7 and mini project 2\nWednesday, 27 Oct\nTopics\nIteration and conditional execution\nMaterials\nIteration slides\nYour turn .Rmd\nYour turn solutions\nCollaborative notes\nBefore next time\nRead sections 2-5 of the tidyverse style guidelines\nWatch video on dates and times with lubridate\nFinish homework 7\nWork on mini project 2\nFriday, 29 Oct\nAnnouncements\nHomework 7 is due today at 8:30 am\nMini project 2 is due tomorrow by noon\nTopics\nIntroduction to interactive graphics\nMaterials\nInteractive report .Rmd\nCollaborative notes\nBefore next time\nTurn in mini project 2 tomorrow\nStart homework 8 (to be posted today)\nWatch coding style video\nOptional: functional programming (another way to iterate)\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-30T12:32:00-05:00",
+    "last_modified": "2021-10-31T20:24:01-05:00",
     "input_file": "week07.knit.md"
   },
   {

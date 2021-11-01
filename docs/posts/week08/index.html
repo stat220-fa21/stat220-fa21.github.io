@@ -87,37 +87,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-<title>Stat 220, Fall 2021: Week 7: Functions, iteration, and more</title>
+<title>Stat 220, Fall 2021: Week 8: Shiny apps</title>
 
-<meta property="description" itemprop="description" content="This week, we&#39;ll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration."/>
+<meta property="description" itemprop="description" content="This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!"/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-10-25"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-10-25"/>
+<meta property="article:published" itemprop="datePublished" content="2021-11-01"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-11-01"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Stat 220, Fall 2021: Week 7: Functions, iteration, and more"/>
+<meta property="og:title" content="Stat 220, Fall 2021: Week 8: Shiny apps"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="This week, we&#39;ll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration."/>
+<meta property="og:description" content="This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Stat 220, Fall 2021"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Stat 220, Fall 2021: Week 7: Functions, iteration, and more"/>
-<meta property="twitter:description" content="This week, we&#39;ll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration."/>
+<meta property="twitter:title" content="Stat 220, Fall 2021: Week 8: Shiny apps"/>
+<meta property="twitter:description" content="This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 7: Functions, iteration, and more"]},{"type":"character","attributes":{},"value":["This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration."]},{"type":"character","attributes":{},"value":["2021-10-25"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 8: Shiny apps"]},{"type":"character","attributes":{},"value":["This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!"]},{"type":"character","attributes":{},"value":["2021-11-01"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["week07_files/anchor-4.2.2/anchor.min.js","week07_files/bowser-1.9.3/bowser.min.js","week07_files/distill-2.2.21/template.v2.js","week07_files/header-attrs-2.11/header-attrs.js","week07_files/jquery-3.6.0/jquery-3.6.0.js","week07_files/jquery-3.6.0/jquery-3.6.0.min.js","week07_files/jquery-3.6.0/jquery-3.6.0.min.map","week07_files/popper-2.6.0/popper.min.js","week07_files/tippy-6.2.7/tippy-bundle.umd.min.js","week07_files/tippy-6.2.7/tippy-light-border.css","week07_files/tippy-6.2.7/tippy.css","week07_files/tippy-6.2.7/tippy.umd.min.js","week07_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["week08_files/anchor-4.2.2/anchor.min.js","week08_files/bowser-1.9.3/bowser.min.js","week08_files/distill-2.2.21/template.v2.js","week08_files/header-attrs-2.11/header-attrs.js","week08_files/jquery-3.6.0/jquery-3.6.0.js","week08_files/jquery-3.6.0/jquery-3.6.0.min.js","week08_files/jquery-3.6.0/jquery-3.6.0.min.map","week08_files/popper-2.6.0/popper.min.js","week08_files/tippy-6.2.7/tippy-bundle.umd.min.js","week08_files/tippy-6.2.7/tippy-light-border.css","week08_files/tippy-6.2.7/tippy.css","week08_files/tippy-6.2.7/tippy.umd.min.js","week08_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2065,7 +2065,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Week 7: Functions, iteration, and more","description":"This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.","authors":[],"publishedDate":"2021-10-25T00:00:00.000-05:00"}
+{"title":"Week 8: Shiny apps","description":"This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!","authors":[],"publishedDate":"2021-11-01T00:00:00.000-05:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2090,10 +2090,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Week 7: Functions, iteration, and more</h1>
+<h1>Week 8: Shiny apps</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This week, we’ll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.</p></p>
+<p><p>This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!</p></p>
 </div>
 
 
@@ -2102,56 +2102,52 @@ document.addEventListener('DOMContentLoaded', function() {
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#monday-25-oct">Monday, 25 Oct</a></li>
-<li><a href="#wednesday-27-oct">Wednesday, 27 Oct</a></li>
-<li><a href="#friday-29-oct">Friday, 29 Oct</a></li>
+<li><a href="#monday-01-nov">Monday, 01 Nov</a></li>
+<li><a href="#wednesday-03-nov">Wednesday, 03 Nov</a></li>
+<li><a href="#friday-05-nov">Friday, 05 Nov</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="monday-25-oct">Monday, 25 Oct</h2>
+<h2 id="monday-01-nov">Monday, 01 Nov</h2>
 <h3 id="topics">Topics</h3>
-<p>Writing functions</p>
+<ul>
+<li><p>Interactive reports examples</p></li>
+<li><p>From reports to applications</p></li>
+</ul>
 <h3 id="materials">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/15-functions.pdf">Function slides</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/17-functions.Rmd">Your turn .Rmd</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/17-soln-functions.pdf">Your turn solution</a></p>
-<p><a href="https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing">Collaborative notes</a></p>
+<ul>
+<li>We’ll work on examples from Friday’s <a href="https://stat220-fa21.github.io/class_materials/slides/17-shiny-reports.Rmd">Interactive report .Rmd</a></li>
+</ul>
+<!-- [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing) -->
 <h3 id="before-next-time">Before next time</h3>
-<ol type="1">
-<li><p>Read <a href="https://rafalab.github.io/dsbook/programming-basics.html#conditionals">Irizarry Section 3.1</a> on conditional execution</p></li>
-<li><p>Read <a href="https://r4ds.had.co.nz/iteration.html">R4DS Sections 21.1-21.3</a> on for loops</p></li>
-<li><p>Work on homework 7 and mini project 2</p></li>
-</ol>
-<h2 id="wednesday-27-oct">Wednesday, 27 Oct</h2>
+<ul>
+<li>Watch <a href="https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=0361538c-7dee-42e1-aeb8-add3002157a8">Shiny tutorial videos by Garrett Grolemund</a> (approx 47 min, it’s broken down into a playlist of 11 videos)</li>
+</ul>
+<h2 id="wednesday-03-nov">Wednesday, 03 Nov</h2>
 <h3 id="topics-1">Topics</h3>
-<p>Iteration and conditional execution</p>
+<ul>
+<li>Reactivity in <code>shiny</code> apps</li>
+</ul>
 <h3 id="materials-1">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/16-iteration.pdf">Iteration slides</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/18-iteration.Rmd">Your turn .Rmd</a></p>
-<p><a href="https://stat220-fa21.github.io/class_materials/activities/18-soln-iteration.pdf">Your turn solutions</a></p>
-<p><a href="https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing">Collaborative notes</a></p>
+<p>Check back soon.</p>
+<!-- [Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing) -->
 <h3 id="before-next-time-1">Before next time</h3>
 <ol type="1">
-<li><p>Read sections 2-5 of the <a href="https://style.tidyverse.org/syntax.html">tidyverse style guidelines</a></p></li>
-<li><p>Watch <a href="https://youtu.be/lmDL4o1aa0Q">video on dates and times with lubridate</a></p></li>
-<li><p>Finish homework 7</p></li>
-<li><p>Work on mini project 2</p></li>
+<li>Finish homework 8</li>
 </ol>
-<h2 id="friday-29-oct">Friday, 29 Oct</h2>
+<h2 id="friday-05-nov">Friday, 05 Nov</h2>
 <h3 id="announcements">Announcements</h3>
-<p>Homework 7 is due today at 8:30 am</p>
-<p>Mini project 2 is due tomorrow by noon</p>
+<p>Homework 8 is due today at 8:30 am</p>
 <h3 id="topics-2">Topics</h3>
-<p>Introduction to interactive graphics</p>
+<ul>
+<li>Columns and other <code>shiny</code> app customizations</li>
+</ul>
 <h3 id="materials-2">Materials</h3>
-<p><a href="https://stat220-fa21.github.io/class_materials/slides/17-shiny-reports.Rmd">Interactive report .Rmd</a></p>
-<p><a href="https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing">Collaborative notes</a></p>
+<p>Check back soon.</p>
+<!-- [Collaborative notes](https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing) -->
 <h3 id="before-next-time-2">Before next time</h3>
 <ol type="1">
-<li><p>Turn in mini project 2 tomorrow</p></li>
-<li><p>Start homework 8 (to be posted today)</p></li>
-<li><p>Watch <a href="https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ddb79fe7-4c69-4abe-9f87-aba700311a16">coding style video</a></p></li>
-<li><p>Optional: <a href="https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c1609a3-8366-4e75-94d5-abb400dcc676">functional programming</a> (another way to iterate)</p></li>
+<li>Start homework 9 (to be posted today)</li>
 </ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

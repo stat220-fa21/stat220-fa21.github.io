@@ -1,0 +1,83 @@
+---
+title: "Week 8: Shiny apps"
+description: |
+  This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!
+date: 2021-11-01
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Monday, 01 Nov
+
+### Topics
+
+- Interactive reports examples
+
+- From reports to applications
+
+### Materials
+
+- We'll work on examples from Friday's [Interactive report .Rmd](https://stat220-fa21.github.io/class_materials/slides/17-shiny-reports.Rmd)
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing) -->
+
+
+### Before next time
+
+- Watch [Shiny tutorial videos by Garrett Grolemund](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=0361538c-7dee-42e1-aeb8-add3002157a8) (approx 47 min, it's broken down into a playlist of 11 videos)
+
+
+## Wednesday, 03 Nov
+
+
+### Topics
+
+- Reactivity in `shiny` apps
+
+
+### Materials
+
+Check back soon.
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing) -->
+
+
+### Before next time
+
+1. Finish homework 8
+
+
+
+## Friday, 05 Nov
+
+### Announcements
+
+Homework 8 is due today at 8:30 am
+
+
+
+### Topics
+
+- Columns and other `shiny` app customizations
+
+
+### Materials
+
+Check back soon.
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing) -->
+
+### Before next time
+
+1. Start homework 9 (to be posted today)
+
