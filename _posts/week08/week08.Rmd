@@ -29,6 +29,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - We'll work on examples from Friday's [Interactive report .Rmd](https://stat220-fa21.github.io/class_materials/slides/17-shiny-reports.Rmd)
 
+- [Your turn solutions](https://stat220-fa21.github.io/class_materials/activities/19-soln-shiny-reports.pdf)
+
 <!-- [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing) -->
 
 
