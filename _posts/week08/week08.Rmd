@@ -23,7 +23,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Interactive reports examples
 
-- From reports to applications
 
 ### Materials
 
@@ -46,10 +45,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Reactivity in `shiny` apps
 
+- From reports to applications
+
 
 ### Materials
 
-Check back soon.
+- [Example report to illustrate reactive programming](https://stat220-fa21.github.io/class_materials/slides/19-shiny-reactivity.Rmd)
+
+- [Your turn .Rmd on reactivity](https://stat220-fa21.github.io/class_materials/activities/20-shiny-reactivity-example.Rmd)
+
+- [Sample app .R script](https://stat220-fa21.github.io/class_materials/slides/19-shiny01-penguins-app.R)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing) -->
 
