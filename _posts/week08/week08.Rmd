@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Your turn solutions](https://stat220-fa21.github.io/class_materials/activities/19-soln-shiny-reports.pdf)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/19x2SGPX-A0TUBjH1bp00HthKAbTgwOCxpUlPZQRjuUM/edit?usp=sharing) -->
+- [Collaborative notes](https://docs.google.com/document/d/1EA7FySBYow-lrM1nQyP0Md1mvvlo27YHlv2s59MoiI8/edit?usp=sharing)
 
 
 ### Before next time
@@ -56,12 +56,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Sample app .R script](https://stat220-fa21.github.io/class_materials/slides/19-shiny01-penguins-app.R)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1boLryssImO3oVl64MFSDdqeUU5DnSUqXhS1O82rL19o/edit?usp=sharing) -->
+<!-- [Collaborative notes](https://docs.google.com/document/d/1EA7FySBYow-lrM1nQyP0Md1mvvlo27YHlv2s59MoiI8/edit?usp=sharing) -->
 
 
 ### Before next time
 
 1. Finish homework 8
+
+1. Watch [Shiny customization tutorial videos by Garrett Grolemund](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=5d40d141-e8d9-48f0-b9b9-add600269cd8) (approx 40 min, it's broken down into a playlist of 5 videos)
+
 
 
 
