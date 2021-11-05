@@ -74,6 +74,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Homework 8 is due today at 8:30 am
 
+Quiz 3 is Monday
+
 
 
 ### Topics
@@ -83,11 +85,19 @@ Homework 8 is due today at 8:30 am
 
 ### Materials
 
-Check back soon.
+- [`isolate()` example](https://stat220-fa21.github.io/class_materials/slides/20-isolate-babynames.R)
+
+- [Shiny layout your turn overview](shiny-layout.html)
+
+- [zip folder with R files](https://stat220-fa21.github.io/class_materials/activities/21-shiny-penguins.zip)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing) -->
 
 ### Before next time
 
+1. Study for quiz
+
 1. Start homework 9 (to be posted today)
+
+1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set)
 

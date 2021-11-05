@@ -1,0 +1,43 @@
+---
+title: "Shiny app layout"
+description: |
+ In this activity, you will practice adjusting the layout of a shiny app.
+ This idea was covered in [Garrett Grolemund's shiny app customization playlist](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=5d40d141-e8d9-48f0-b9b9-add600269cd8).
+date: "Nov. 5, 2021"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+Your goal is to create a Shiny app with two tabs: one that displays the an 
+interactive scatterplot, and one that displays the raw `palmerpenguins` data set.
+Below is a screenshot of what the final product might look like, though you are
+free to make other customizations.
+
+<INSERT GRAPHIC HERE>
+
+
+## Instructions
+
+1. Download this zip file and open the folder. It contains an `app.R` file that is
+a rough Shiny app as well as an image that is displayed in the app.
+
+2. Run the app to see that it works.
+
+3. Use `tabsetPanel` and `tabPanel` to make two tabs for your Shiny app. Show your plot, selectors, and image on in the first tab, and the printed data set in the second tab. Be sure to give the tabs informative names. The [Shiny appication Layout guide](https://shiny.rstudio.com/articles/layout-guide.html) has additional discussion of this if you would like another guide.
+
+4. On the tab with your plot, arrange the contents of your app in three columns: 
+
+    + The first (left) column will be a `wellPanel` with your user inputs. 
+    + The second (middle) column will contain the scatterplot.
+    + The third (right) column will contain the picture describing the beak measurements.
+  
+    To do this, create a `fluidRow`, and then use `column` three times. Make the left column width 3, the center column width 5, and the right column width 4. The [Shiny appication Layout guide](https://shiny.rstudio.com/articles/layout-guide.html) has an eample of this in the "Grid Layout" section. Garrett Grolemund also talked about this in his webinar that was assigned for today.
+    
+5. If you get done with the above tasks, create a third tab and include some additional interactive element. This could be another graphic, or summary statistics that are calculated based on user input. Add something that interests you!
+
+    If you want some inspiration, check out the [Shiny gallery](https://shiny.rstudio.com/gallery/). There are [demos](https://shiny.rstudio.com/gallery/#demos) that show you how to implement certain things and a [user showcase](https://shiny.rstudio.com/gallery/#user-showcase) where folks show off their work.
