@@ -18,7 +18,10 @@ interactive scatterplot, and one that displays the raw `palmerpenguins` data set
 Below is a screenshot of what the final product might look like, though you are
 free to make other customizations.
 
-<INSERT GRAPHIC HERE>
+```{r echo=FALSE}
+knitr::include_graphics("penguin_app.png")
+```
+
 
 
 ## Instructions

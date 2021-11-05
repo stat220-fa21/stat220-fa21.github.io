@@ -1,15 +1,15 @@
 [
   {
     "path": "posts/week08/",
-    "title": "Week 8: Shiny apps",
-    "description": "This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!",
+    "title": "Shiny app layout",
+    "description": "In this activity, you will practice adjusting the layout of a shiny app.\nThis idea was covered in [Garrett Grolemund's shiny app customization playlist](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=5d40d141-e8d9-48f0-b9b9-add600269cd8).",
     "author": [],
-    "date": "2021-11-01",
+    "date": "2021-11-05",
     "categories": [],
-    "contents": "\n\nContents\nMonday, 01 Nov\nWednesday, 03 Nov\nFriday, 05 Nov\n\nMonday, 01 Nov\nTopics\nInteractive reports examples\nMaterials\nWe’ll work on examples from Friday’s Interactive report .Rmd\nYour turn solutions\nCollaborative notes\nBefore next time\nWatch Shiny tutorial videos by Garrett Grolemund (approx 47 min, it’s broken down into a playlist of 11 videos)\nWednesday, 03 Nov\nTopics\nReactivity in shiny apps\nFrom reports to applications\nMaterials\nExample report to illustrate reactive programming\nYour turn .Rmd on reactivity\nSample app .R script\nBefore next time\nFinish homework 8\nWatch Shiny customization tutorial videos by Garrett Grolemund (approx 40 min, it’s broken down into a playlist of 5 videos)\nFriday, 05 Nov\nAnnouncements\nHomework 8 is due today at 8:30 am\nQuiz 3 is Monday\nTopics\nColumns and other shiny app customizations\nMaterials\nisolate() example\nShiny layout your turn overview\nzip folder with R files\nBefore next time\nStudy for quiz\nStart homework 9 (to be posted today)\nSkim sections 5.1-5.4 of Data Science: A First Introduction\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-11-05T08:06:17-05:00",
-    "input_file": "week08.knit.md"
+    "contents": "\nOverview\nYour goal is to create a Shiny app with two tabs: one that displays the an interactive scatterplot, and one that displays the raw palmerpenguins data set. Below is a screenshot of what the final product might look like, though you are free to make other customizations.\n\n\n\nInstructions\nDownload this zip file and open the folder. It contains an app.R file that is a rough Shiny app as well as an image that is displayed in the app.\nRun the app to see that it works.\nUse tabsetPanel and tabPanel to make two tabs for your Shiny app. Show your plot, selectors, and image on in the first tab, and the printed data set in the second tab. Be sure to give the tabs informative names. The Shiny appication Layout guide has additional discussion of this if you would like another guide.\nOn the tab with your plot, arrange the contents of your app in three columns:\nThe first (left) column will be a wellPanel with your user inputs.\nThe second (middle) column will contain the scatterplot.\nThe third (right) column will contain the picture describing the beak measurements.\nTo do this, create a fluidRow, and then use column three times. Make the left column width 3, the center column width 5, and the right column width 4. The Shiny appication Layout guide has an eample of this in the “Grid Layout” section. Garrett Grolemund also talked about this in his webinar that was assigned for today.\nIf you get done with the above tasks, create a third tab and include some additional interactive element. This could be another graphic, or summary statistics that are calculated based on user input. Add something that interests you!\nIf you want some inspiration, check out the Shiny gallery. There are demos that show you how to implement certain things and a user showcase where folks show off their work.\n\n",
+    "preview": "posts/week08/distill-preview.png",
+    "last_modified": "2021-11-05T08:10:09-05:00",
+    "input_file": "shiny-layout.knit.md"
   },
   {
     "path": "posts/week07/",
