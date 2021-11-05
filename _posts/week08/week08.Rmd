@@ -87,7 +87,7 @@ Quiz 3 is Monday
 
 - [`isolate()` example](https://stat220-fa21.github.io/class_materials/slides/20-isolate-babynames.R)
 
-- [Shiny layout your turn overview](shiny-layout.html)
+- [Shiny layout your turn overview](shiny-layout/shiny-layout.html)
 
 - [zip folder with R files](https://stat220-fa21.github.io/class_materials/activities/21-shiny-penguins.zip)
 
