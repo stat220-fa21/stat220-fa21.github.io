@@ -56,7 +56,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Sample app .R script](https://stat220-fa21.github.io/class_materials/slides/19-shiny01-penguins-app.R)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1EA7FySBYow-lrM1nQyP0Md1mvvlo27YHlv2s59MoiI8/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1vE_q_Ou_mkjXvUbe-3SiKBjcrigR339AfsVOAkeGaMs/edit?usp=sharing)
 
 
 ### Before next time
@@ -87,11 +87,13 @@ Quiz 3 is Monday
 
 - [`isolate()` example](https://stat220-fa21.github.io/class_materials/slides/20-isolate-babynames.R)
 
-- [Shiny layout your turn overview](shiny-layout/shiny-layout.html)
+- [Shiny layout your turn overview](https://stat220-fa21.github.io/class_materials/activities/21-shiny-layout.html)
+
+    + [Screencast](https://carleton.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f996c43-0f99-41b6-97c8-add800f8c4e1) where I walk through the layout changes
 
 - [zip folder with R files](https://stat220-fa21.github.io/class_materials/activities/21-shiny-penguins.zip)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1yeMQDYdLoIorweR5hDiue9IdlDrgmK1cu-YYYiglCkE/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing)
 
 ### Before next time
 
