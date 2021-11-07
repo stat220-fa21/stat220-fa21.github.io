@@ -38,6 +38,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Homework solutions
 
+- [Homework 8 solution](https://www.dropbox.com/s/mo6u9giaqt7m1nz/hw8-sol.pdf?dl=0)
+
+    + [Shiny app solution](https://www.dropbox.com/s/eauuoa9h3facmwd/hw8-shiny.Rmd?dl=0)
+
 - [Homework 7 solution](https://www.dropbox.com/s/ati6j9x1dxbglxj/hw7-sol-stat220-fa21.pdf?dl=0)
 
 - [Homework 6 solution](https://www.dropbox.com/s/hid7cb706n9m43u/hw6-sol-stat220-fa21.pdf?dl=0)
