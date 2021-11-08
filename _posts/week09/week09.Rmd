@@ -1,0 +1,87 @@
+---
+title: "Week 9: Introduction to classification"
+description: |
+  This week we'll explore classification problems using k-nearest neighbors, and start clustering using k-means (if time permits).
+date: 2021-11-08
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Monday, 08 Nov
+
+### Topics
+
+- Introduction to classification
+
+- Quiz 3 (last 40 minutes)
+
+
+### Materials
+
+[Intro to classification slides](https://stat220-fa21.github.io/class_materials/slides/21-knn-classifier.pdf)
+
+<!-- - [Collaborative notes](https://docs.google.com/document/d/1EA7FySBYow-lrM1nQyP0Md1mvvlo27YHlv2s59MoiI8/edit?usp=sharing) -->
+
+
+### Before next time
+
+- Reading TBD
+
+
+## Wednesday, 10 Nov
+
+
+### Topics
+
+- Reactivity in `shiny` apps
+
+- From reports to applications
+
+
+### Materials
+
+Coming soon...
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1vE_q_Ou_mkjXvUbe-3SiKBjcrigR339AfsVOAkeGaMs/edit?usp=sharing) -->
+
+
+### Before next time
+
+1. Finish homework 9
+
+
+
+## Friday, 12 Nov
+
+### Announcements
+
+Homework 9 is due today at 8:30 am
+
+
+### Topics
+
+- Columns and other `shiny` app customizations
+
+
+### Materials
+
+Coming soon...
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing) -->
+
+### Before next time
+
+1. Start homework 10 (to be posted today)
+
+<!-- 1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set) -->
+
+

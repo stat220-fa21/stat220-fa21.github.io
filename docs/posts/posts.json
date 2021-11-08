@@ -1,5 +1,17 @@
 [
   {
+    "path": "posts/week09/",
+    "title": "Week 9: Introduction to classification",
+    "description": "This week we'll explore classification problems using k-nearest neighbors, and start clustering using k-means (if time permits).",
+    "author": [],
+    "date": "2021-11-08",
+    "categories": [],
+    "contents": "\n\nContents\nMonday, 08 Nov\nWednesday, 10 Nov\nFriday, 12 Nov\n\nMonday, 08 Nov\nTopics\nIntroduction to classification\nQuiz 3 (last 40 minutes)\nMaterials\nIntro to classification slides\n\nBefore next time\nReading TBD\nWednesday, 10 Nov\nTopics\nReactivity in shiny apps\nFrom reports to applications\nMaterials\nComing soon…\n\nBefore next time\nFinish homework 9\nFriday, 12 Nov\nAnnouncements\nHomework 9 is due today at 8:30 am\nTopics\nColumns and other shiny app customizations\nMaterials\nComing soon…\n\nBefore next time\nStart homework 10 (to be posted today)\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-08T01:18:36-06:00",
+    "input_file": "week09.knit.md"
+  },
+  {
     "path": "posts/week08/",
     "title": "Week 8: Shiny apps",
     "description": "This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!",
