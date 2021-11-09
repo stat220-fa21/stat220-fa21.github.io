@@ -34,7 +34,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Before next time
 
-- Reading TBD
+- Read [sections 5.5-5.8 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#classification-with-k-nearest-neighbors)
+
+- Read [section 6.3 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification2.html#evaluating-accuracy)
 
 
 ## Wednesday, 10 Nov
