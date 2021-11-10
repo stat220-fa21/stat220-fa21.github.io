@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Intro to classification slides](https://stat220-fa21.github.io/class_materials/slides/21-knn-classifier.pdf)
 
-<!-- - [Collaborative notes](https://docs.google.com/document/d/1EA7FySBYow-lrM1nQyP0Md1mvvlo27YHlv2s59MoiI8/edit?usp=sharing) -->
+- [Collaborative notes](https://docs.google.com/document/d/1mdfARhrRtAjx79jgVfY6SGE5ygU56yDM6VSfU8e10h0/edit?usp=sharing)
 
 
 ### Before next time
@@ -44,14 +44,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Topics
 
-- Reactivity in `shiny` apps
+- KNN in R
 
-- From reports to applications
+- Classification metrics
+
+- Cross validation (if time)
 
 
 ### Materials
 
-Coming soon...
+[KNN slides](https://stat220-fa21.github.io/class_materials/slides/22-knn-cross-validate.pdf)
+
+[Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/22-knn.Rmd)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1vE_q_Ou_mkjXvUbe-3SiKBjcrigR339AfsVOAkeGaMs/edit?usp=sharing) -->
 
@@ -71,7 +75,7 @@ Homework 9 is due today at 8:30 am
 
 ### Topics
 
-- Columns and other `shiny` app customizations
+- Wrapping up classification
 
 
 ### Materials
