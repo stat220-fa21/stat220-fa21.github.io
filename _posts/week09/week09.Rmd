@@ -46,10 +46,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - KNN in R
 
-- Classification metrics
-
-- Cross validation (if time)
-
 
 ### Materials
 
@@ -57,7 +53,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Your turn .Rmd](https://stat220-fa21.github.io/class_materials/activities/22-knn.Rmd)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1vE_q_Ou_mkjXvUbe-3SiKBjcrigR339AfsVOAkeGaMs/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1r0q3WgJsH0KMThX0D1bVpayYrq4WwiEZ6gTf20uJ6So/edit?usp=sharing)
 
 
 ### Before next time
@@ -70,23 +66,27 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Announcements
 
-Homework 9 is due today at 8:30 am
+Homework 9 is due Tuesday at 8:30 am (last homework of term)
+
+Quiz 4 is Wednesday - focuses exclusively on classification
 
 
 ### Topics
 
-- Wrapping up classification
+- Classification metrics
+
+- Cross validation
 
 
 ### Materials
 
-Coming soon...
+[KNN slides](https://stat220-fa21.github.io/class_materials/slides/22-knn-cross-validate.pdf) (Starting on slide 16)
 
 <!-- [Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing) -->
 
 ### Before next time
 
-1. Start homework 10 (to be posted today)
+1. TBD
 
 <!-- 1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set) -->
 
