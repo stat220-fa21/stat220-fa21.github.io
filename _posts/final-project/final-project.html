@@ -87,638 +87,38 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Stat 220, Fall 2021: Course materials and schedule</title>
+  <title>Final project</title>
 
-  <meta property="description" itemprop="description" content="Announcements and upcoming deadlines"/>
+  <meta property="description" itemprop="description" content="Description and rubric for the final project in Stat 220."/>
 
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-11-12"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-11-12"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Stat 220, Fall 2021: Course materials and schedule"/>
+  <meta property="og:title" content="Final project"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Announcements and upcoming deadlines"/>
+  <meta property="og:description" content="Description and rubric for the final project in Stat 220."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Stat 220, Fall 2021"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Stat 220, Fall 2021: Course materials and schedule"/>
-  <meta property="twitter:description" content="Announcements and upcoming deadlines"/>
+  <meta property="twitter:title" content="Final project"/>
+  <meta property="twitter:description" content="Description and rubric for the final project in Stat 220."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Course materials and schedule"]},{"type":"character","attributes":{},"value":["Announcements and upcoming deadlines\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Final project"]},{"type":"character","attributes":{},"value":["Description and rubric for the final project in Stat 220.\n"]},{"type":"character","attributes":{},"value":["2021-11-12"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["EMRN.png","final-project_files/anchor-4.2.2/anchor.min.js","final-project_files/bowser-1.9.3/bowser.min.js","final-project_files/distill-2.2.21/template.v2.js","final-project_files/header-attrs-2.11/header-attrs.js","final-project_files/jquery-3.6.0/jquery-3.6.0.js","final-project_files/jquery-3.6.0/jquery-3.6.0.min.js","final-project_files/jquery-3.6.0/jquery-3.6.0.min.map","final-project_files/popper-2.6.0/popper.min.js","final-project_files/tippy-6.2.7/tippy-bundle.umd.min.js","final-project_files/tippy-6.2.7/tippy-light-border.css","final-project_files/tippy-6.2.7/tippy.css","final-project_files/tippy-6.2.7/tippy.umd.min.js","final-project_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2037,370 +1437,122 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="final-project_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="final-project_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="final-project_files/popper-2.6.0/popper.min.js"></script>
+  <link href="final-project_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="final-project_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="final-project_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="final-project_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="final-project_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="final-project_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="final-project_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Course materials and schedule","description":"Announcements and upcoming deadlines","authors":[]}
+{"title":"Final project","description":"Description and rubric for the final project in Stat 220.","authors":[],"publishedDate":"2021-11-12T00:00:00.000-06:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Stat 220, Fall 2021</a>
-<a href="resources.html">Resources</a>
-<a href="https://github.com/stat220-fa21">GitHub</a>
-<a href="https://moodle.carleton.edu/course/view.php?id=36986">Moodle</a>
-<a href="https://stat220-fa21.slack.com">Slack</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Course materials and schedule">Course materials and schedule</h1>
-<a href="posts/final-project/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 12, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img src="posts/final-project/EMRN.png"/>
-</div>
-<div class="description">
-<h2>Final project</h2>
-<div class="dt-tags"></div>
-<p>Description and rubric for the final project in Stat 220.</p>
-</div>
-</a>
-<a href="posts/week09/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 8, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Week 9: Introduction to classification</h2>
-<div class="dt-tags"></div>
-<p>This week we'll explore classification problems using k-nearest neighbors, and start clustering using k-means (if time permits).</p>
-</div>
-</a>
-<a href="posts/week08/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 1, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Week 8: Shiny apps</h2>
-<div class="dt-tags"></div>
-<p>This week you will learn how to create interactive web pages to present your results to the world. These interactive web pages can be created using the shiny package, and only require you to know R—they write the javascript in the background!</p>
-</div>
-</a>
-<a href="posts/week07/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 25, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Week 7: Functions, iteration, and more</h2>
-<div class="dt-tags"></div>
-<p>This week, we'll focus on developing some fundamental programming ideas, such as writing functions, conditional execution, and iteration.</p>
-</div>
-</a>
-<a href="posts/week06/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 18, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Week 6: Web scraping</h2>
-<div class="dt-tags"></div>
-<p>This week, you'll learn how to scrape data from the web using the `rvest` package.</p>
-</div>
-</a>
-<a href="posts/week05/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 11, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/week05/week05.png"/>
-</div>
-<div class="description">
-<h2>Week 5: Factors and strings and dates, oh my!</h2>
-<div class="dt-tags"></div>
-<p>This week, we'll add to our data wrangling toolkit. You'll learn how to efficiently work with and manipulate factors, character strings, and date/times.</p>
-</div>
-</a>
-<a href="posts/week04/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 4, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/week04/week04.png"/>
-</div>
-<div class="description">
-<h2>Week 4: Tidy data</h2>
-<div class="dt-tags"></div>
-<p>This week we will continue our discussion of data manipulation by focusing on tidying data sets.  what tidy data sets look like and the tools to tidy a data set. We will also talk about reading data into R and working with factors. On Friday, we have our first quiz.</p>
-</div>
-</a>
-<a href="posts/week03/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 27, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/week03/week03.png"/>
-</div>
-<div class="description">
-<h2>Week 3: Data viz and data wrangling</h2>
-<div class="dt-tags"></div>
-<p>This week we'll conclude our initial discussion of static data visualization by
-working through a few special plot types (e.g., maps). We'll also start wrangling
-data sets.</p>
-</div>
-</a>
-<a href="posts/week02/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 26, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/week02/week02.png"/>
-</div>
-<div class="description">
-<h2>Week 2: Version control and data viz</h2>
-<div class="dt-tags"></div>
-<p>This week we'll discuss version control and learn (or review) how to use the ggplot2 library to 
-create effective data-driven graphics.</p>
-</div>
-</a>
-<a href="posts/week01/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 15, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/week01/week01.png"/>
-</div>
-<div class="description">
-<h2>Week 1: Welcome to Stat 220!</h2>
-<div class="dt-tags"></div>
-<p>This week we'll discuss an overview of the course, review some fundamental concepts about R, and get up and running with some new reproducibility tools.</p>
-</div>
-</a>
-<a href="posts/setup/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 13, 2021</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Getting setup for Stat 220</h2>
-<div class="dt-tags"></div>
-<p>Please work through this guide and install/update the necessary
-software **before** the first day of class.</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Course materials and schedule</h1>
+<h1>Final project</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Announcements and upcoming deadlines</p></p>
+<p><p>Description and rubric for the final project in Stat 220.</p></p>
 </div>
 
 
 <div class="d-article">
+<h2 id="deadlines">Deadlines:</h2>
+<ul>
+<li><p>You should fill our your group membership form by Monday, November 15 at 8:30 a.m.</p></li>
+<li><p>You should push your final project to to GitHub by 3:30 p.m. on Tuesday, November 23</p></li>
+<li><p>You should complete your group assessment form by 10 a.m. Wednesday, November 24</p></li>
+</ul>
+<h2 id="project-description">Project description</h2>
+<p>The goal of the project is to go through the complete data-scientific process to answer questions you have about some topic of your choosing. You will need to acquire and wrangle your data, design your visualizations, run analyses (which could be visualizations), and communicate the results. The project is an opportunity to show off what you have learned about data science! Your task is to use data to tell me something interesting. This project is deliberately open-ended to allow you to fully explore your creativity. Here are the main rules that must be followed:</p>
+<p><strong>Create a website or Shiny app.</strong> The website/app will be your platform to communicate what you have learned.</p>
+<p><strong>Create a brief technical report.</strong> Create a brief write-up for me (not on the website) that explains your methodology for your website/app creation. Include a <em>brief</em> explanation of the class tools/methods you used and any new tools/methods used. This does not need to be a step-by-step explanation, rather it should give me a roadmap for your R code file(s).</p>
+<p><strong>Create a five-minute screencast.</strong> This is your change to present your key findings to me “in person.”</p>
+<p><strong>Use the materials learned in this class.</strong> Both the computational and statistical tools learned.</p>
+<p><strong>Your project must be centered around real data.</strong> You will work with large, complex, and/or messy data. While this is not an explicit requirement of the project, the more challenging your data set is, the more you will have to use the tools learned in this class. For example, one thing that will make your data science project more ambitious is combining two or more data sets that are not directly related. To get full marks, you need to use data that was not accessible to you as a Math 215, 245 or 275 student. (You may want to rethink your project if you could have used your data for a final project in one of those courses.)</p>
+<p><strong>Your project must tell me something.</strong> An example of a project that doesn’t tell me anything would be something that downloads a single data source and summarizes it, with some perfunctory visualization. Make sure that your project is thought-provoking and has some underlying meaning!</p>
+<p><strong>Exploring new tools and creativity will be rewarded.</strong> Going above and beyond what we did in class will be rewarded. For example, you may want to learn about decision trees and random forests and use them as you classifier, to create all of your graphics using <code>plotly</code>, or to create animations using <code>gganimate</code>.</p>
+<h2 id="products">Products</h2>
+<ol type="1">
+<li><p><strong>Web-based presentation of results:</strong> Place the URL of your site in your GitHub repo’s README file</p>
+<ul>
+<li>You could create a <a href="https://sites.google.com/a/carleton.edu?pli=1">google site</a>, <a href="https://pages.github.com/">github page</a>, <a href="https://rpubs.com/">RPubs page</a> or a <em>free</em> <a href="https://www.shinyapps.io/">Shiny web app page</a>.<br />
+</li>
+<li>Here is a R Markdown reference for <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#a-simple-example">formatting .Rmd as HTML pages</a>
+<ul>
+<li>and they have info for creating an <a href="https://resources.github.com/whitepapers/github-and-rstudio/">.Rmd for Github Pages</a></li>
+</ul></li>
+<li>Here are some examples of how you could present your work on a (github built) website:
+<ul>
+<li><a href="http://cs109hubway.github.io/classp/" class="uri">http://cs109hubway.github.io/classp/</a></li>
+<li><a href="http://hamelsmu.github.io/AirbnbScrape/" class="uri">http://hamelsmu.github.io/AirbnbScrape/</a></li>
+<li><a href="https://claralivingston.shinyapps.io/Bachelor/" class="uri">https://claralivingston.shinyapps.io/Bachelor/</a></li>
+<li><a href="https://yicheng-shen.shinyapps.io/DS_Final_Project/" class="uri">https://yicheng-shen.shinyapps.io/DS_Final_Project/</a></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Project Screencast</strong></p>
+<p>Each team will create a five minute screencast with narration showing a demo of your Shiny app, website, or some slides. You can download Panopto to do this free from ITS. Information about how to use Panopto to prepare these screencasts can be found <a href="https://apps.carleton.edu/campus/its/services/learning/lecture-capture/">here</a>. Please make sure that the sound quality of your video is good. If you use a different video capture platform, then please upload it to Panopto and either embed the video in your website/app, or share the link in your README file.</p>
+<p>Use principles of good storytelling and presentations to get your key points across. Focus the majority of your screencast on your main contributions rather than on technical details. What do you feel is the best part of your project? What insights did you gain? What is the single most important thing you would like your audience to take away? Make sure it is upfront and center rather than at the end!</p></li>
+<li><p><strong>Code and data on GitHub</strong></p>
+<ul>
+<li>Data: make sure to provide your data, if it is too large for GitHub, then store it in Dropbox or Google drive and put the share link in your repo’s README file</li>
+<li>.Rmd/.R files: in the README, provide a list of file names in your repo along with a brief description of their content or use in your project. Please do not include files that aren’t needed to complete your project!</li>
+</ul></li>
+<li><p><strong>Peer assessment Google form:</strong> Link will be added later</p></li>
+</ol>
+<h2 id="rubric">Rubric</h2>
+<p>While grading your projects I will focus on the following aspects. Each is worth 10 points, and you can think of the scale as follows: 10 = Excellent; 7 = meets expectations; 5 = Revision needed; 2 = Not assessable; 0 = Did not complete.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="EMRN.png" width="1044" /></p>
+</div>
+<ol type="1">
+<li><p><em>Project Scope.</em> Did you choose the appropriate complexity and level of difficulty of your project?</p></li>
+<li><p><em>Background and motivation.</em> Appropriate background information is discussed to understand the research question for someone unfamiliar with the topic, and you have clearly communicated why your research question is interesting.</p></li>
+<li><p><em>Data description.</em> It is clear what information your data set contains, as well as the source(s).</p></li>
+<li><p><em>Methodology.</em> A clear and concise description of the methods used in your project is given. This cloud include: data collection and cleaning, development of complex visualizations (if they are non-obvious to a data-literate reader), and modeling.</p></li>
+<li><p><em>Implementation.</em> All methods are correctly implemented; that is, the results are correct with no flaws.</p></li>
+<li><p><em>Discussion/interpretation of results.</em> Findings are clearly discussed and follow logically from the results.</p></li>
+<li><p><em>Coding style and quality.</em> Code is well written, organized, and commented. A consistent coding style, such as the tidyverse style guide, is followed. A randomly selected Stat 220 student could read the code and understand the implementation.</p></li>
+<li><p><em>Presentation.</em> The website and screencast are clear and engaging. All visualizations are informative, insightful, and visually appealing. All tables are formatted (no raw output!), informative, insightful, and visually appealing. The writing is clear and without any mechanical errors.</p></li>
+<li><p><em>Submission.</em> The project was submitted on time via GitHub, was complete and well organized. I should be able to easily navigate to your webpage based on a URL in the README file, and all code and data necessary to replicate your analysis is organized in the repo.</p></li>
+</ol>
+<p>The following aspects will be graded on a 5-point scale (E = 5, M = 4, R = 2, N = 0):</p>
+<ol start="10" type="1">
+<li><p><em>Creativity.</em> Awarded based for creativity and/or sophistication of the methodology. These points could be awarded for, but are not limited to:</p>
+<ul>
+<li>Outstanding visualizations that are unusually artistic, insightful, and/or challenging to produce.</li>
+<li>Data collection and cleaning that is unusually complex.</li>
+<li>Modeling that is unusually sophisticated or challenging.</li>
+<li>An exceptionally captivating presentation of the results.</li>
+</ul></li>
+<li><p><em>Group evaluations.</em> Based on self and peer eval feedback.</p></li>
+</ol>
+<h2 id="data-ideas">Data ideas</h2>
+<p>Some ideas for data if you are struggling to find an appropriate data set.</p>
+<ul>
+<li>Tidy Tuesday: <a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a></li>
+<li>Data from the FiveThirtyEight website: <a href="https://github.com/fivethirtyeight" class="uri">https://github.com/fivethirtyeight</a></li>
+<li>ProPublica (look for free data): <a href="https://www.propublica.org/datastore/" class="uri">https://www.propublica.org/datastore/</a></li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
