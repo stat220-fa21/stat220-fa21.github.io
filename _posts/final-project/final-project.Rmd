@@ -2,7 +2,7 @@
 title: "Final project"
 description: |
   Description and rubric for the final project in Stat 220.
-date: 2021-11-12
+date: 2021-11-16
 output:
   distill::distill_article:
     self_contained: false

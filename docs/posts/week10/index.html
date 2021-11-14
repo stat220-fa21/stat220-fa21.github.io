@@ -87,37 +87,37 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-<title>Stat 220, Fall 2021: Final project</title>
+<title>Stat 220, Fall 2021: Week 10: Wrapping up statistical learning</title>
 
-<meta property="description" itemprop="description" content="Description and rubric for the final project in Stat 220."/>
+<meta property="description" itemprop="description" content="This week we&#39;ll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project."/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-11-16"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-11-16"/>
+<meta property="article:published" itemprop="datePublished" content="2021-11-15"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-11-15"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Stat 220, Fall 2021: Final project"/>
+<meta property="og:title" content="Stat 220, Fall 2021: Week 10: Wrapping up statistical learning"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Description and rubric for the final project in Stat 220."/>
+<meta property="og:description" content="This week we&#39;ll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Stat 220, Fall 2021"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Stat 220, Fall 2021: Final project"/>
-<meta property="twitter:description" content="Description and rubric for the final project in Stat 220."/>
+<meta property="twitter:title" content="Stat 220, Fall 2021: Week 10: Wrapping up statistical learning"/>
+<meta property="twitter:description" content="This week we&#39;ll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Final project"]},{"type":"character","attributes":{},"value":["Description and rubric for the final project in Stat 220."]},{"type":"character","attributes":{},"value":["2021-11-16"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","draft"]}},"value":[{"type":"character","attributes":{},"value":["Week 10: Wrapping up statistical learning"]},{"type":"character","attributes":{},"value":["This week we'll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project."]},{"type":"character","attributes":{},"value":["2021-11-15"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["EMRN.png","final-project_files/anchor-4.2.2/anchor.min.js","final-project_files/bowser-1.9.3/bowser.min.js","final-project_files/distill-2.2.21/template.v2.js","final-project_files/header-attrs-2.11/header-attrs.js","final-project_files/jquery-3.6.0/jquery-3.6.0.js","final-project_files/jquery-3.6.0/jquery-3.6.0.min.js","final-project_files/jquery-3.6.0/jquery-3.6.0.min.map","final-project_files/popper-2.6.0/popper.min.js","final-project_files/tippy-6.2.7/tippy-bundle.umd.min.js","final-project_files/tippy-6.2.7/tippy-light-border.css","final-project_files/tippy-6.2.7/tippy.css","final-project_files/tippy-6.2.7/tippy.umd.min.js","final-project_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["week10_files/anchor-4.2.2/anchor.min.js","week10_files/bowser-1.9.3/bowser.min.js","week10_files/distill-2.2.21/template.v2.js","week10_files/header-attrs-2.11/header-attrs.js","week10_files/jquery-3.6.0/jquery-3.6.0.js","week10_files/jquery-3.6.0/jquery-3.6.0.min.js","week10_files/jquery-3.6.0/jquery-3.6.0.min.map","week10_files/popper-2.6.0/popper.min.js","week10_files/tippy-6.2.7/tippy-bundle.umd.min.js","week10_files/tippy-6.2.7/tippy-light-border.css","week10_files/tippy-6.2.7/tippy.css","week10_files/tippy-6.2.7/tippy.umd.min.js","week10_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2065,7 +2065,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Final project","description":"Description and rubric for the final project in Stat 220.","authors":[],"publishedDate":"2021-11-16T00:00:00.000-06:00"}
+{"title":"Week 10: Wrapping up statistical learning","description":"This week we'll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project.","authors":[],"publishedDate":"2021-11-15T00:00:00.000-06:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2090,91 +2090,67 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Final project</h1>
+<h1>Week 10: Wrapping up statistical learning</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Description and rubric for the final project in Stat 220.</p></p>
+<p><p>This week we’ll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project.</p></p>
 </div>
 
 
 <div class="d-article">
-<h2 id="deadlines">Deadlines:</h2>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
 <ul>
-<li><p>You should fill our your group membership form by Monday, November 15 at 8:30 a.m.</p></li>
-<li><p>You should push your final project to to GitHub by 3:30 p.m. on Tuesday, November 23</p></li>
-<li><p>You should complete your group assessment form by 10 a.m. Wednesday, November 24</p></li>
+<li><a href="#monday-15-nov">Monday, 15 Nov</a></li>
+<li><a href="#wednesday-17-nov">Wednesday, 17 Nov</a></li>
+<li><a href="#friday-19-nov">Friday, 19 Nov</a></li>
 </ul>
-<h2 id="project-description">Project description</h2>
-<p>The goal of the project is to go through the complete data-scientific process to answer questions you have about some topic of your choosing. You will need to acquire and wrangle your data, design your visualizations, run analyses (which could be visualizations), and communicate the results. The project is an opportunity to show off what you have learned about data science! Your task is to use data to tell me something interesting. This project is deliberately open-ended to allow you to fully explore your creativity. Here are the main rules that must be followed:</p>
-<p><strong>Create a website or Shiny app.</strong> The website/app will be your platform to communicate what you have learned.</p>
-<p><strong>Create a brief technical report.</strong> Create a brief write-up for me (not on the website) that explains your methodology for your website/app creation. Include a <em>brief</em> explanation of the class tools/methods you used and any new tools/methods used. This does not need to be a step-by-step explanation, rather it should give me a roadmap for your R code file(s).</p>
-<p><strong>Create a five-minute screencast.</strong> This is your change to present your key findings to me “in person.”</p>
-<p><strong>Use the materials learned in this class.</strong> Both the computational and statistical tools learned.</p>
-<p><strong>Your project must be centered around real data.</strong> You will work with large, complex, and/or messy data. While this is not an explicit requirement of the project, the more challenging your data set is, the more you will have to use the tools learned in this class. For example, one thing that will make your data science project more ambitious is combining two or more data sets that are not directly related. To get full marks, you need to use data that was not accessible to you as a Math 215, 245 or 275 student. (You may want to rethink your project if you could have used your data for a final project in one of those courses.)</p>
-<p><strong>Your project must tell me something.</strong> An example of a project that doesn’t tell me anything would be something that downloads a single data source and summarizes it, with some perfunctory visualization. Make sure that your project is thought-provoking and has some underlying meaning!</p>
-<p><strong>Exploring new tools and creativity will be rewarded.</strong> Going above and beyond what we did in class will be rewarded. For example, you may want to learn about decision trees and random forests and use them as you classifier, to create all of your graphics using <code>plotly</code>, or to create animations using <code>gganimate</code>.</p>
-<h2 id="products">Products</h2>
-<ol type="1">
-<li><p><strong>Web-based presentation of results:</strong> Place the URL of your site in your GitHub repo’s README file</p>
-<ul>
-<li>You could create a <a href="https://sites.google.com/a/carleton.edu?pli=1">google site</a>, <a href="https://pages.github.com/">github page</a>, <a href="https://rpubs.com/">RPubs page</a> or a <em>free</em> <a href="https://www.shinyapps.io/">Shiny web app page</a>.<br />
-</li>
-<li>Here is a R Markdown reference for <a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#a-simple-example">formatting .Rmd as HTML pages</a>
-<ul>
-<li>and they have info for creating an <a href="https://resources.github.com/whitepapers/github-and-rstudio/">.Rmd for Github Pages</a></li>
-</ul></li>
-<li>Here are some examples of how you could present your work on a (github built) website:
-<ul>
-<li><a href="http://cs109hubway.github.io/classp/" class="uri">http://cs109hubway.github.io/classp/</a></li>
-<li><a href="http://hamelsmu.github.io/AirbnbScrape/" class="uri">http://hamelsmu.github.io/AirbnbScrape/</a></li>
-<li><a href="https://claralivingston.shinyapps.io/Bachelor/" class="uri">https://claralivingston.shinyapps.io/Bachelor/</a></li>
-<li><a href="https://yicheng-shen.shinyapps.io/DS_Final_Project/" class="uri">https://yicheng-shen.shinyapps.io/DS_Final_Project/</a></li>
-</ul></li>
-</ul></li>
-<li><p><strong>Project Screencast</strong></p>
-<p>Each team will create a five minute screencast with narration showing a demo of your Shiny app, website, or some slides. You can download Panopto to do this free from ITS. Information about how to use Panopto to prepare these screencasts can be found <a href="https://apps.carleton.edu/campus/its/services/learning/lecture-capture/">here</a>. Please make sure that the sound quality of your video is good. If you use a different video capture platform, then please upload it to Panopto and either embed the video in your website/app, or share the link in your README file.</p>
-<p>Use principles of good storytelling and presentations to get your key points across. Focus the majority of your screencast on your main contributions rather than on technical details. What do you feel is the best part of your project? What insights did you gain? What is the single most important thing you would like your audience to take away? Make sure it is upfront and center rather than at the end!</p></li>
-<li><p><strong>Code and data on GitHub</strong></p>
-<ul>
-<li>Data: make sure to provide your data, if it is too large for GitHub, then store it in Dropbox or Google drive and put the share link in your repo’s README file</li>
-<li>.Rmd/.R files: in the README, provide a list of file names in your repo along with a brief description of their content or use in your project. Please do not include files that aren’t needed to complete your project!</li>
-</ul></li>
-<li><p><strong>Peer assessment Google form:</strong> Link will be added later</p></li>
-</ol>
-<h2 id="rubric">Rubric</h2>
-<p>While grading your projects I will focus on the following aspects. Each is worth 10 points, and you can think of the scale as follows: 10 = Excellent; 7 = meets expectations; 5 = Revision needed; 2 = Not assessable; 0 = Did not complete.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="EMRN.png" width="1044" /></p>
+</nav>
 </div>
-<ol type="1">
-<li><p><em>Project Scope.</em> Did you choose the appropriate complexity and level of difficulty of your project?</p></li>
-<li><p><em>Background and motivation.</em> Appropriate background information is discussed to understand the research question for someone unfamiliar with the topic, and you have clearly communicated why your research question is interesting.</p></li>
-<li><p><em>Data description.</em> It is clear what information your data set contains, as well as the source(s).</p></li>
-<li><p><em>Methodology.</em> A clear and concise description of the methods used in your project is given. This cloud include: data collection and cleaning, development of complex visualizations (if they are non-obvious to a data-literate reader), and modeling.</p></li>
-<li><p><em>Implementation.</em> All methods are correctly implemented; that is, the results are correct with no flaws.</p></li>
-<li><p><em>Discussion/interpretation of results.</em> Findings are clearly discussed and follow logically from the results.</p></li>
-<li><p><em>Coding style and quality.</em> Code is well written, organized, and commented. A consistent coding style, such as the tidyverse style guide, is followed. A randomly selected Stat 220 student could read the code and understand the implementation.</p></li>
-<li><p><em>Presentation.</em> The website and screencast are clear and engaging. All visualizations are informative, insightful, and visually appealing. All tables are formatted (no raw output!), informative, insightful, and visually appealing. The writing is clear and without any mechanical errors.</p></li>
-<li><p><em>Submission.</em> The project was submitted on time via GitHub, was complete and well organized. I should be able to easily navigate to your webpage based on a URL in the README file, and all code and data necessary to replicate your analysis is organized in the repo.</p></li>
-</ol>
-<p>The following aspects will be graded on a 5-point scale (E = 5, M = 4, R = 2, N = 0):</p>
-<ol start="10" type="1">
-<li><p><em>Creativity.</em> Awarded based for creativity and/or sophistication of the methodology. These points could be awarded for, but are not limited to:</p>
+<h2 id="monday-15-nov">Monday, 15 Nov</h2>
+<h3 id="announcements">Announcements</h3>
 <ul>
-<li>Outstanding visualizations that are unusually artistic, insightful, and/or challenging to produce.</li>
-<li>Data collection and cleaning that is unusually complex.</li>
-<li>Modeling that is unusually sophisticated or challenging.</li>
-<li>An exceptionally captivating presentation of the results.</li>
-</ul></li>
-<li><p><em>Group evaluations.</em> Based on self and peer eval feedback.</p></li>
-</ol>
-<h2 id="data-ideas">Data ideas</h2>
-<p>Some ideas for data if you are struggling to find an appropriate data set.</p>
-<ul>
-<li>Tidy Tuesday: <a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a></li>
-<li>Data from the FiveThirtyEight website: <a href="https://github.com/fivethirtyeight" class="uri">https://github.com/fivethirtyeight</a></li>
-<li>ProPublica (look for free data): <a href="https://www.propublica.org/datastore/" class="uri">https://www.propublica.org/datastore/</a></li>
+<li><p>Mini project 3 is due tomorrow by 8:30 a.m.</p></li>
+<li><p><a href="https://www.dropbox.com/s/36gfh57y3s64dcc/quiz_examples_classification.pdf?dl=0">Old quiz problems</a> are posted</p></li>
+<li><p><a href="https://stat220-fa21.github.io/class_materials/hw10/README.html">Practice homework problems</a> are posted (not due)</p></li>
+<li><p>Quiz 4 is Wednesday</p></li>
 </ul>
+<h3 id="topics">Topics</h3>
+<ul>
+<li><p>Wrapping up classification</p></li>
+<li><p>Introduction to clustering</p></li>
+</ul>
+<h3 id="materials">Materials</h3>
+<!-- - [Collaborative notes](https://docs.google.com/document/d/1mdfARhrRtAjx79jgVfY6SGE5ygU56yDM6VSfU8e10h0/edit?usp=sharing) -->
+<h3 id="before-next-time">Before next time</h3>
+<ul>
+<li><p>Read <a href="https://ubc-dsci.github.io/introduction-to-datascience/clustering.html">Chapter 9 of Data Science: A First Introduction</a></p></li>
+<li><p>Study for Quiz 4</p></li>
+</ul>
+<h2 id="wednesday-17-nov">Wednesday, 17 Nov</h2>
+<h3 id="topics-1">Topics</h3>
+<ul>
+<li><p>Wrap up clustering</p></li>
+<li><p>Quiz 4</p></li>
+</ul>
+<h3 id="materials-1">Materials</h3>
+<p>TBD</p>
+<!-- [Collaborative notes](https://docs.google.com/document/d/1r0q3WgJsH0KMThX0D1bVpayYrq4WwiEZ6gTf20uJ6So/edit?usp=sharing) -->
+<h3 id="before-next-time-1">Before next time</h3>
+<ol type="1">
+<li>Work on final project</li>
+</ol>
+<h2 id="friday-19-nov">Friday, 19 Nov</h2>
+<h3 id="announcements-1">Announcements</h3>
+<p>Quiz 3 revisions are due today</p>
+<h3 id="topics-2">Topics</h3>
+<ul>
+<li>Project work day</li>
+</ul>
+<h3 id="materials-2">Materials</h3>
+<!-- [Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing) -->
+<!-- 1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set) -->
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
