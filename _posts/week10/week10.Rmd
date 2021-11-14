@@ -1,0 +1,94 @@
+---
+title: "Week 10: Wrapping up statistical learning"
+description: |
+  This week we'll wrap up classification problems using k-nearest neighbors, have a brief overview of clustering using k-means, and work on the final project.
+date: 2021-11-15
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Monday, 15 Nov
+
+### Announcements
+
+- Mini project 3 is due tomorrow by 8:30 a.m.
+
+- [Old quiz problems](https://www.dropbox.com/s/36gfh57y3s64dcc/quiz_examples_classification.pdf?dl=0) are posted
+
+- [Practice homework problems](https://stat220-fa21.github.io/class_materials/hw10/README.html) are posted (not due)
+
+- Quiz 4 is Wednesday
+
+
+### Topics
+
+- Wrapping up classification
+
+- Introduction to clustering
+
+
+### Materials
+
+
+<!-- - [Collaborative notes](https://docs.google.com/document/d/1mdfARhrRtAjx79jgVfY6SGE5ygU56yDM6VSfU8e10h0/edit?usp=sharing) -->
+
+
+### Before next time
+
+- Read [Chapter 9 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/clustering.html)
+
+- Study for Quiz 4
+
+
+## Wednesday, 17 Nov
+
+
+### Topics
+
+- Wrap up clustering
+
+- Quiz 4
+
+
+### Materials
+
+TBD
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1r0q3WgJsH0KMThX0D1bVpayYrq4WwiEZ6gTf20uJ6So/edit?usp=sharing) -->
+
+
+### Before next time
+
+1. Work on final project
+
+
+
+## Friday, 19 Nov
+
+### Announcements
+
+Quiz 3 revisions are due today
+
+
+### Topics
+
+- Project work day
+
+
+### Materials
+
+<!-- [Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing) -->
+
+
+<!-- 1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set) -->
+
+
