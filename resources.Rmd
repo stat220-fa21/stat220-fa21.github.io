@@ -57,6 +57,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Quiz materials
 
+- [Old classification questions](https://www.dropbox.com/s/36gfh57y3s64dcc/quiz_examples_classification.pdf?dl=0)
+
 - [Old programming fundamentals questions](https://www.dropbox.com/s/196wxumaw3kzrxk/quiz_examples_programming.pdf?dl=0)
 
 - [Old data wrangling questions](https://www.dropbox.com/s/1qkr586sy8o0kxf/quiz_examples_wrangling.pdf?dl=0)
