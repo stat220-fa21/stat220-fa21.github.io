@@ -39,6 +39,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ### Materials
 
 - [KNN cross validation activity](https://stat220-fa21.github.io/class_materials/activities/23-knn-cv.Rmd)
+    + [Solutions](https://stat220-fa21.github.io/class_materials/activities/23-soln-knn-cv.Rmd)
 
 - [Intro to clustering slides](https://stat220-fa21.github.io/class_materials/slides/23-k-means.pdf)
 

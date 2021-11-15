@@ -82,11 +82,8 @@ Quiz 4 is Wednesday - focuses exclusively on classification
 
 [KNN slides](https://stat220-fa21.github.io/class_materials/slides/22-knn-cross-validate.pdf) (Starting on slide 16)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1OwrV4E15W8MLeFBL2taGGhUJ3qAYLsq3S3vmP0wZ8pc/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1qJVinJA6lMvel_Z0U0f_dWEF53OPxDAwnTEyQt8kL4w/edit?usp=sharing)
 
-### Before next time
-
-1. TBD
 
 <!-- 1. Skim [sections 5.1-5.4 of Data Science: A First Introduction](https://ubc-dsci.github.io/introduction-to-datascience/classification.html#exploring-a-data-set) -->
 
