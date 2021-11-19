@@ -68,7 +68,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [K-means in R slides](https://stat220-fa21.github.io/class_materials/slides/23-k-means.pdf) (Start on slide 26)
 
-<!-- [Collaborative notes](https://docs.google.com/document/d/1r0q3WgJsH0KMThX0D1bVpayYrq4WwiEZ6gTf20uJ6So/edit?usp=sharing) -->
+[Collaborative notes](https://docs.google.com/document/d/1Ws0YC_7eCNJY85YZ4CEgqzljfzg1glIHO7vIH9jxNeA/edit?usp=sharing)
 
 
 ### Before next time

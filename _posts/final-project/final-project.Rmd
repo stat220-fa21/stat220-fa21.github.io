@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - You should push your final project to to GitHub by 3:30 p.m. on Tuesday, November 23
 
-- You should complete your group assessment form by 10 a.m. Wednesday, November 24
+- You should [complete your group assessment form](https://forms.gle/QJS93hfqxPLdz8CA9) by 10 a.m. Wednesday, November 24
 
 ## Project description
 
@@ -64,7 +64,7 @@ The goal of the project is to go through the complete data-scientific process to
     - .Rmd/.R files: in the README, provide a list of file names in your repo along with a brief description of their content or use in your project. Please do not include files that aren't needed to complete your project!
     
     
-5. **Peer assessment Google form:** Link will be added later
+5. **Peer assessment Google form:** https://forms.gle/QJS93hfqxPLdz8CA9
 
 
 ## Rubric
